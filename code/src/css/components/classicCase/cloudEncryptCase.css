@@ -1,0 +1,32 @@
+/**
+ * Created by mengjiuxiang on 2017/4/14.
+ */
+.global-div-cloud-encrypt-case{
+    margin:0 auto;
+    width:1060px;
+    
+}
+
+.global-img-div-cloud-encrypt-case{
+    float:left;
+    width:1060px;
+    height:360px;
+}
+
+.product-div-cloud-encrypt-case{
+    float:left;
+    width:1060px;
+    margin-bottom: 70px;
+    border:1px solid #dbe0ef;
+    padding-bottom: 70px;
+
+}
+
+.img-div-cloud-encrypt-case{
+    margin-top: 28px;
+    margin-left: 200px;
+    float:left;
+    width:660px;
+    height:350px;
+}
+

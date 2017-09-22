@@ -1,0 +1,50 @@
+/**
+ * Created by mengjiuxiang on 2017/4/14.
+ */
+.global-div-jiushiwo-ctl{
+    margin:0 auto;
+    width:1060px;
+    
+}
+
+.global-img-div-jiushiwo-ctl{
+    float:left;
+    width:1060px;
+    height:400px;
+}
+
+.bar-div-jiushiwo-ctl{
+    float:left;
+    width:1060px;
+    border-bottom: 1px solid #dbe0ef ;
+}
+
+.bar-first-div-jiushiwo-ctl{
+    float:left;
+    height:69px;
+    line-height: 45px;
+    font-size:20px;
+    color :#404040;
+    text-align: center;
+
+}
+.bar-item-div-jiushiwo-ctl{
+    float:left;
+    height:69px;
+    line-height: 45px;
+    font-size:20px;
+    color :#404040;
+    text-align: center;
+}
+.product-div-jiushiwo-ctl{
+    float:left;
+    width:1060px;
+    margin-bottom: 70px;
+
+    border-left: 1px solid #dbe0ef;
+    border-right: 1px solid #dbe0ef;
+    border-bottom: 1px solid #dbe0ef;
+    padding-bottom: 70px;
+
+}
+

@@ -1,0 +1,24 @@
+/**
+ * Created by mengjiuxiang on 2017/4/14.
+ */
+.global-div-company-brief{
+    margin:0 auto;
+    width:1060px;
+    
+}
+
+.global-img-div-company-brief{
+    float:left;
+    width:1060px;
+    height:100px;
+}
+
+.product-div-company-brief{
+    float:left;
+    width:1060px;
+    margin-bottom: 70px;
+    border:1px solid #dbe0ef;
+    padding-bottom: 70px;
+
+}
+
