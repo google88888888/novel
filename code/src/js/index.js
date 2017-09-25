@@ -18,23 +18,24 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            mainData:[],
-            
+            data:[],
+            catalog:[],
 
         };
     }
 
     componentDidMount() {
-        this.getMainData();
+        this.getData();
+        this.getCatalog();
     }
 
-    getMainData(){
+    getData(){
         let self = this;
         let param={
 
         }
 
-        // new RequestApi('post','/v1/novel/getMainData',param,(data)=>{
+        // new RequestApi('post','/v1/novel/getData',param,(data)=>{
         //     if(data.code!==200){
         //         message.error(data.msg);
         //     }else{
@@ -45,7 +46,30 @@ class App extends Component {
         // });
 
         self.setState({
-            mainData :mock.getMainData.data,
+            data :mock.getData.data,
+        })
+
+
+    }
+
+    getCatalog(){
+        let self = this;
+        let param={
+
+        }
+
+        // new RequestApi('post','/v1/novel/getCatalog',param,(data)=>{
+        //     if(data.code!==200){
+        //         message.error(data.msg);
+        //     }else{
+        //         self.setState({
+        //             data :data.data,
+        //         })
+        //     }
+        // });
+
+        self.setState({
+            catalog :mock.getCatalog.data,
         })
 
 
@@ -53,7 +77,7 @@ class App extends Component {
 
    
     render() {
-        const {} = this.state;
+        const {data,catalog} = this.state;
         let self=this;
         return (
             
@@ -61,10 +85,14 @@ class App extends Component {
                 <LogobarCtl />
                 <div className="content-div-index">
                     <div className="main-list-div-index">
-                        <MainCtl />
+                        <MainCtl 
+                            data={data}
+                        />
                     </div>  
                     <div className="catalog-list-div-index">
-                        <CatalogCtl />
+                        <CatalogCtl 
+                            catalog={catalog}
+                        />
                     </div> 
                 </div>
             </div>

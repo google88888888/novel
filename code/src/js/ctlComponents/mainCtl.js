@@ -31,7 +31,7 @@ class mainCtl extends Component {
         const {data} = this.props;
         let self = this;
 
-        let dataHtml=[];
+        /*let dataHtml=[];
         for(let i=0;i<data.length;i++){
             dataHtml.push(
                 <div key={i}>
@@ -40,7 +40,7 @@ class mainCtl extends Component {
                     </div>
                 </div>     
             )
-        }
+        }*/
 
         return (
             <div>
