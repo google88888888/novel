@@ -22,7 +22,6 @@ class logobarCtl extends Component {
 
     }
 
-
     render() {
         const {} = this.state;
         const {} = this.props;
@@ -31,7 +30,9 @@ class logobarCtl extends Component {
    
         return (
             <div className="global-div-logo-bar-ctl">
-
+                <div className="logo-div-logo-bar-ctl">
+                    江南短篇网
+                </div>
             </div>
             
         )

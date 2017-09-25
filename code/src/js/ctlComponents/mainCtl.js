@@ -28,15 +28,15 @@ class mainCtl extends Component {
 
     render() {
         const {} = this.state;
-        const {} = this.props;
+        const {data} = this.props;
         let self = this;
 
-        let notifyTextHtml=[];
-        for(let i=0;i<customerInfo.length;i++){
-            notifyTextHtml.push(
+        let dataHtml=[];
+        for(let i=0;i<data.length;i++){
+            dataHtml.push(
                 <div key={i}>
-                    <div className="notify-carousel-text-div-home-page-ctl">
-                        {customerInfo[i]+"购买了密盾加密服务"}
+                    <div className="data-item-div-main-ctl">
+                        {data[i]+"购买了密盾加密服务"}
                     </div>
                 </div>     
             )

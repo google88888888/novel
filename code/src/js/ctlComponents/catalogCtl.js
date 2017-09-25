@@ -35,7 +35,7 @@ class catalogCtl extends Component {
         const {} = this.props;
         let self = this;
 
-        let notifyTextHtml=[];
+        /*let notifyTextHtml=[];
         for(let i=0;i<customerInfo.length;i++){
             notifyTextHtml.push(
                 <div key={i}>
@@ -44,7 +44,7 @@ class catalogCtl extends Component {
                     </div>
                 </div>     
             )
-        }
+        }*/
 
         return (
             <div>

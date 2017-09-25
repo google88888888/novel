@@ -96,32 +96,3 @@
     
 }
 
-
-/* 以下是修改antd相关css */
-/* use css to set position of modal */
-.ant-tabs-nav{
-    float: right;
-    height:60px;
-    line-height:45px;
-    color:#666666;
-
-    margin-right:-24px;
-    
-}
-b, strong{
-    font-weight: normal;
-}
-
-.ant-carousel .slick-dots li button{
-    margin-top:-110px;
-}
-
-.ant-btn{
-    margin:0;
-    padding:0;
-}
-
-
-.ant-tabs-bar{
-    border-bottom: none;
-}

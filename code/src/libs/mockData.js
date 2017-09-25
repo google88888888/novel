@@ -1,222 +1,24 @@
-/**
- * Created by mengjiuxiang on 2017/4/14.
- */
+export let getMainData ={
+    code: 200,
+    data: [
+            {
+                catalog: "catalog",
+                title: "title",
+                author: "author",
+                content: "我司财务经理，注会注税经济师等，比较节俭，所以不舍得刷歪国证，但英文很厉害，现在国内会计过度偏重核算，并没有太好的预算控制和成本管理。不光中国企业，在中国的小外企也模棱两可，把Accounting放的位置高而把FC放低，这是一种风气，毕竟当年一个国家领导人对这一行的期许竟然是不做假帐，一下就把层次拉低到核算了。某大型红色民企下属公司财务总监，大学同学舍友，CFA L3(原回答为CFA高级)，认为中国企业是没有真正的企业管理的，公司治理结构也是形同虚设，所以他们的活其实并不累，给相关方提供看得懂的东西就对了。其实国内也没有培养公司治理人才的环境，需要懂业务，跟信息化人才培养是一样的。请问有几家的预算不是用钱的汇报下，财务部门汇总下，然后撕逼一刀切？=======新增而且，管理会计这个说法本身就很中国，从源头上讲，预算与成本的思想源于工时定额制，泰勒在提出这个方法体系的时候， 就是在会计领域的会议上提出的，一直到上世纪60年代才开始被重视，刚开始哪能说是质疑，就是赤裸裸的嘲笑啊，因为当初根本看不到什么叫事前，认为核算后的数据比核算前记录的处理重要。而现在我们的层次就是帝国主义20世纪40年代的水平。",
 
-/*工具函数*/
-export let search ={
-    result:{ 
-        accountInfo:[{
-                        name:"name1name2name3name4文字",
-                        remark:"remark",
-                        cellphone:"cellphone",
-                        email:"email",
-                        department:"department",
-                        departmentPath:"departmentPath",
-                        myGroup:[],
-                        position:"position",
-                        portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                        isUsualContact:true,
-                        isActive:true,  
-                    }],
-        myGroup:[{
-                    account:"account",
-                    name:"name",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    contain:["shu柱子","contain2","contain3","contain4","contain5","contain6","contain7","contain8"],
-                }],
-    }
+            },
+            {
+                catalog: "catalog1",
+                title: "title1",
+                author: "author1",
+                content: "现在的Linode可真是招黑啊，理由全是小水管支撑不了这么大的流量。实际根本不是这么回事，说白了就是其他主机商推广费用高，Linode推广费用低，还不能提现。所以大家各种忽悠大家买别的主机，而别用Linode的。那些黑Linode的真的有使用过吗？我在Linode和Vultr上都部署了主机，实际使用情况肯定是Linode好。网速非常稳定，服务器也稳定。Vultr的网络有时不稳定，会出现ssh卡得无法操作的情况。有一次Vultr升级还把我的VPS给重启了，给我发了一封通知邮件，可惜邮件我已经删了。下面截图为证，我在Linode和Vultr的使用情况。上图为Linode，下图为Vultr",
 
-
-}
-
-
-export let passwordLogin ={
-
-    accountInfo:[{
-                    account:"account",
-                    name:"221212121passwordLoginname1name2name3name4文字",
-                    remark:"remark",
-                    cellphone:"cellphone",
-                    email:"email",
-                    department:"department",
-                    departmentPath:"departmentPath",
-                    myGroup:[],
-                    position:"position",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    isUsualContact:true,
-                    isActive:true,  
-                }]
-
-
-
-}
-
-export let getMyGroup ={
-
-    myGroup:[{
-                    account:"account1",
-                    name:"221212121passwordLoginname1name2name3name4文字234234数百万饿死不无恶不为日本人你",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    
-            },{
-                    account:"account2",
-                    name:"啊额外福娃额阿文诶万恶噶热个人股热格热戈日阿哥热阿伽二哥万恶份额服务日为额外人恶",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    
-            },{
-                    account:"account3",
-                    name:"221212121passwordLoginname1name2name3name4文字",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    
-            },{
-                    account:"account4",
-                    name:"221212121passwordLoginname1name2name3name4文字",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    
-            }]
-
-
-
-}
-
-
-export let getUsualContact ={
-    usualContact:{
-        a:[{
-                    account:"accounta1",
-                    name:"221",
-                    remark:"remark",
-                    cellphone:"cellphone",
-                    email:"email",
-                    department:"department",
-                    departmentPath:"departmentPath",
-                    myGroup:[],
-                    position:"position",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    isUsualContact:true,
-                    isActive:"false",  
-        },{
-                    account:"accounta2",
-                    name:"221212121passwordLoginname1name2name3name4文字",
-                    remark:"remark",
-                    cellphone:"cellphone",
-                    email:"email",
-                    department:"department",
-                    departmentPath:"departmentPath",
-                    myGroup:[],
-                    position:"position",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    isUsualContact:true,
-                    isActive:true,  
-        }],
-        b:[],
-        c:[],
-        d:[],
-        e:[{
-                    account:"accounte1",
-                    name:"221212121passwordLoginname1name2name3name4文字",
-                    remark:"remark",
-                    cellphone:"cellphone",
-                    email:"email",
-                    department:"department",
-                    departmentPath:"departmentPath",
-                    myGroup:[],
-                    position:"position",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    isUsualContact:true,
-                    isActive:true,  
-        }],
-        f:[],
-        g:[],
-        h:[],
-        i:[],
-        j:[],
-        k:[],
-        l:[],
-        m:[],
-        n:[],
-        o:[],
-        p:[],
-        q:[],
-        r:[],
-        s:[],
-        t:[],
-        u:[],
-        v:[],
-        w:[],
-        x:[],
-        y:[],
-        z:[],
-        special:[{
-                    account:"accountaspecial1",
-                    name:"221212121passwordLoginname1name2name3name4文字egwewefweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewe",
-                    remark:"remark",
-                    cellphone:"cellphone",
-                    email:"email",
-                    department:"department",
-                    departmentPath:"departmentPath",
-                    myGroup:[],
-                    position:"position",
-                    portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                    isUsualContact:true,
-                    isActive:true,  
-        }],
-    }
-
-
-
-}
-
-
-
-
-
-
-export let getOrganize ={
-    childOrganize:[{
-                        organizeId:"organizeId1",
-                        name:"name1哇哦安慰违法未发违法未方吖4根4共4 4土石方挖坟晚饭文峰额外发违法4根4共4 4土石方挖坟晚饭文峰额外发违法",
-                        memberCount:"100000",
-                        total:"4", 
-                   },{
-                        organizeId:"organizeId2",
-                        name:"name2",
-                        memberCount:"999",
-                        total:"5", 
-                   },{
-                        organizeId:"organizeId3",
-                        name:"name3",
-                        memberCount:"3",
-                        total:"6", 
-                   }],
-    member:[{
-                account:"account1啊尕哇哦安慰违法未发违法未方吖4根4共4 4土石方挖坟晚饭文峰额外发违法",
-                name:"1rsga阿斯顿给我Awe",
-                remark:"remark",
-                cellphone:"cellphone",
-                email:"email",
-                department:"department",
-                departmentPath:"departmentPath",
-                myGroup:[],
-                position:"position",
-                portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                isUsualContact:"true",
-                isActive:"false",  
-            },{
-                account:"account2",
-                name:"221212121passwordLoginname1name2name3name4文字",
-                remark:"remark",
-                cellphone:"cellphone",
-                email:"email",
-                department:"department",
-                departmentPath:"departmentPath",
-                myGroup:[],
-                position:"position",
-                portrait:"https://sfault-avatar.b0.upaiyun.com/147/825/1478255147-57158f6dca959_big64",
-                isUsualContact:"true",
-                isActive:"true",  
-            }]
-
+            },
+        ]
+    ,
+    msg: "",
+    timestamp: 1477065600000
 
 
 }

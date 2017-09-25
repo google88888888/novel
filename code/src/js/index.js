@@ -5,151 +5,68 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Tabs,message } from 'antd';
 import '../css/index.css';
-import HomePage from './ctlComponents/homePageCtl';
-import ProductCenter from './ctlComponents/productCenterCtl';
-import ChannelPartner from './ctlComponents/channelPartnerCtl';
-import ClassicCase from './ctlComponents/classicCaseCtl';
-import AboutUs from './ctlComponents/aboutUsCtl';
-
-import Bottom from "../libs/bottom/js/bottom";   
+import LogobarCtl from './ctlComponents/logobarCtl';
+import MainCtl from './ctlComponents/mainCtl';
+import CatalogCtl from './ctlComponents/catalogCtl';   
 
 import Util from "../libs/util"; 
+import * as mock from "../libs/mockData"; 
 import '../libs/common.css';
-import logo from '../media/logo.png';
-
 
 const {Component} = React;
-const TabPane = Tabs.TabPane;
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            appshow:"homePage",
-            productCenterShow:"cloudEncrypt",
-            classicCaseShow:"cloudEncryptCase",
-            aboutUsShow:"companyBrief",
+            mainData:[],
+            
+
         };
     }
 
     componentDidMount() {
-        let self=this;
-        window.addEventListener('popstate', function(event) {
-
-            if(event.state===null||event.state.appshow===null){
-                self.setState({ 
-                    appshow:"homePage",
-                });
-            }else{
-                self.setState({ 
-                    appshow:event.state.appshow,
-                });
-
-            }
-            
-
-        });
+        this.getMainData();
     }
 
+    getMainData(){
+        let self = this;
+        let param={
 
-    onChange(activeKey){
-        history.pushState({
-            appshow:activeKey
-        },null,null);
-        this.setState({ 
-            appshow:activeKey,
-        });
-
-
-    }
-
-    onChangeShow(appshow,contentShow){
-
-        if(appshow==="homePage"){
-            this.setState({ 
-                appshow:appshow,
-            });
-        }else if(appshow==="productCenter"){
-            this.setState({ 
-                appshow:appshow,
-                productCenterShow:contentShow,
-            });
-        }else if(appshow==="classicCase"){
-            this.setState({ 
-                appshow:appshow,
-                classicCaseShow:contentShow,
-            });
-        }else if(appshow==="aboutUs"){
-            this.setState({ 
-                appshow:appshow,
-                aboutUsShow:contentShow,
-            });
         }
 
-        history.pushState({
-            appshow:appshow
-        },null,null);
+        // new RequestApi('post','/v1/novel/getMainData',param,(data)=>{
+        //     if(data.code!==200){
+        //         message.error(data.msg);
+        //     }else{
+        //         self.setState({
+        //             data :data.data,
+        //         })
+        //     }
+        // });
 
+        self.setState({
+            mainData :mock.getMainData.data,
+        })
 
 
     }
-    
+
+   
     render() {
-        const {appshow,productCenterShow,classicCaseShow,aboutUsShow} = this.state;
+        const {} = this.state;
         let self=this;
         return (
             
             <div className="App">
-                
-                <Tabs defaultActiveKey="homePage" 
-                    
-                    tabBarStyle={{height:"60px",width:"1280px",margin:"0 auto"}} 
-
-                    tabBarExtraContent={<div>
-                        <img src={logo} style={{float:"left",height:"26px",marginLeft:"-1280px",marginTop:"17px"}}/>
-                        <span style={{float:"left",height:"26px",lineHeight:"26px",marginLeft:"-1240px",marginTop:"17px"
-                                      ,fontSize:"16px"}}>
-                            杭州弗兰科信息安全科技有限公司
-                        </span>
-                    </div>}
-                    
-                    activeKey={appshow}
-
-                    onChange={self.onChange.bind(self)}
-                    >
-                
-                    <TabPane tab={<span><b>首页</b></span>} key="homePage">
-                        <HomePage   
-                            onChangeShow={self.onChangeShow.bind(self)}
-                        />
-                    </TabPane>
-                    <TabPane tab={<span><b>产品中心</b></span>} key="productCenter">
-                        <ProductCenter 
-                            productCenterShow={productCenterShow} 
-                            onChangeShow={self.onChangeShow.bind(self)}
-                        />
-                    </TabPane>
-                    {/*<TabPane tab={<span><b>渠道伙伴</b></span>} key="channelPartner">
-                        <ChannelPartner  />
-                    </TabPane>*/}
-                    <TabPane tab={<span><b>典型案例</b></span>} key="classicCase">
-                        <ClassicCase  
-                            onChangeShow={self.onChangeShow.bind(self)}
-                            classicCaseShow={classicCaseShow} 
-                        />
-                    </TabPane>
-                    <TabPane tab={<span><b>关于我们</b></span>} key="aboutUs">
-                        <AboutUs  
-                            onChangeShow={self.onChangeShow.bind(self)}
-                            aboutUsShow={aboutUsShow} 
-                        />
-                    </TabPane>
-                </Tabs>
-
-                <Bottom 
-                    onChangeShow={self.onChangeShow.bind(self)} 
-                />
-
-
+                <LogobarCtl />
+                <div className="content-div-index">
+                    <div className="main-list-div-index">
+                        <MainCtl />
+                    </div>  
+                    <div className="catalog-list-div-index">
+                        <CatalogCtl />
+                    </div> 
+                </div>
             </div>
         );
     }
