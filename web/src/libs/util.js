@@ -15,7 +15,7 @@ export function RequestApi(type,url,data,callback,errorCallback){
         dataType: "json",
         success: function(data){
             let t2 = new Date().getTime();
-            if(data.message==="success"){
+            if(data.code===200){
                 callback(data);
             }else{
                 message.error("错误信息："+data.message);
