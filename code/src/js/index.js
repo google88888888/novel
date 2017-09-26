@@ -9,7 +9,7 @@ import LogobarCtl from './ctlComponents/logobarCtl';
 import MainCtl from './ctlComponents/mainCtl';
 import CatalogCtl from './ctlComponents/catalogCtl';   
 
-import Util from "../libs/util"; 
+import {RequestApi,typeNumToStr} from "../libs/util"; 
 import * as mock from "../libs/mockData"; 
 import '../libs/common.css';
 
@@ -40,18 +40,25 @@ class App extends Component {
         //         message.error(data.msg);
         //     }else{
         //         self.setState({
-        //             data :data.data,
+        //             data :this.getTrueData(data.data),
         //         })
         //     }
         // });
 
         self.setState({
-            data :mock.getData.data,
+            data :this.getTrueData(mock.getData0.data),
         })
 
 
     }
-
+    getTrueData(data){
+        for(var i=0;i<data.length;i++){
+            //data[i].key=i; 
+            data[i].type=typeNumToStr(data[i].type);
+        };
+        return data;
+    }
+    
     getCatalog(){
         let self = this;
         let param={
@@ -63,13 +70,13 @@ class App extends Component {
         //         message.error(data.msg);
         //     }else{
         //         self.setState({
-        //             data :data.data,
+        //             data :this.getTrueData(data.data),
         //         })
         //     }
         // });
 
         self.setState({
-            catalog :mock.getCatalog.data,
+            catalog :this.getTrueData(mock.getCatalog.data),
         })
 
 

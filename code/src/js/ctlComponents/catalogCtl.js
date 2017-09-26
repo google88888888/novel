@@ -8,9 +8,6 @@ import React from 'react';
 import {Button,Tooltip,Icon,message,Menu} from 'antd';
 const { SubMenu } = Menu;
 
-// import CloudEncryptCase from '../components/catalog/cloudEncryptCase';
-// import AnhengEncryptCase from '../components/catalog/anhengEncryptCase';
-
 import '../../css/ctlComponents/catalogCtl.css';
 
 import Util from "../../libs/util";   
@@ -32,23 +29,41 @@ class catalogCtl extends Component {
 
     render() {
         const {} = this.state;
-        const {} = this.props;
+        const {catalog} = this.props;
         let self = this;
 
-        /*let notifyTextHtml=[];
-        for(let i=0;i<customerInfo.length;i++){
-            notifyTextHtml.push(
-                <div key={i}>
-                    <div className="notify-carousel-text-div-home-page-ctl">
-                        {customerInfo[i]+"购买了密盾加密服务"}
+        let catalogHtml=[];
+        for(let i=0;i<catalog.length;i++){
+            let catalogItemHtml=[];
+            for(let j=0;j<catalog[i].content.length;j++){
+                catalogItemHtml.push(
+                    <div key={j} className="catalog-item-div-catalog-ctl">
+                        <div key={"title"+j} className="catalog-title-item-div-catalog-ctl">
+                            <nobr>{catalog[i].content[j].title}</nobr>
+                        </div>    
+                        <div key={"author"+j} className="catalog-author-item-div-catalog-ctl">
+                            <nobr>{catalog[i].content[j].author}</nobr>argeraerr
+                        </div>                      
+                    </div>     
+                )
+            }
+
+            catalogHtml.push(
+                <div key={i} className="catalog-div-catalog-ctl">
+                    <div className="type-div-catalog-ctl">
+                        {catalog[i].type}
                     </div>
+                    <div className="item-div-catalog-ctl">
+                        {catalogItemHtml}
+                    </div>
+                    
                 </div>     
             )
-        }*/
+        }
 
         return (
             <div>
-                
+                {catalogHtml}
             </div>
             
         )

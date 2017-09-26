@@ -30,21 +30,38 @@ class mainCtl extends Component {
         const {} = this.state;
         const {data} = this.props;
         let self = this;
-
-        /*let dataHtml=[];
+        let dataHtml=[];
         for(let i=0;i<data.length;i++){
+            let contentHtml=[];
+            for(let j=0;j<data[i].content.length;j++){
+                contentHtml.push(
+                    <div key={j} className="content-item-div-main-ctl">
+                        {data[i].content[j]}
+                    </div>     
+                )
+            }
             dataHtml.push(
-                <div key={i}>
-                    <div className="data-item-div-main-ctl">
-                        {data[i]+"购买了密盾加密服务"}
+                <div key={i} className="data-item-div-main-ctl">
+                    <div className="from-catalog-div-main-ctl">
+                        来自话题：{data[i].type}
                     </div>
+                    <div className="title-div-main-ctl">
+                        {data[i].title}
+                    </div>
+                    <div className="author-div-main-ctl">
+                        {data[i].author}
+                    </div>
+                    <div className="content-div-main-ctl">
+                        {contentHtml}
+                    </div>
+
                 </div>     
             )
-        }*/
+        }
 
         return (
             <div>
-
+                {dataHtml}
             </div>
             
         )

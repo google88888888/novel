@@ -2,4 +2,66 @@
  * Created by mengjiuxiang on 2017/4/14.
  */
 
+.data-item-div-main-ctl{
+    float:left;
+    width:690px;
+    margin-top: 10px;
 
+    background: #ffffff;
+
+}
+
+.from-catalog-div-main-ctl{
+    float:left;
+    width:650px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #959ec5;
+    margin-left: 20px;
+    margin-top: 16px;
+
+
+}
+
+.title-div-main-ctl{
+    float:left;
+    width:650px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+    color: #331e1e;
+    margin-left: 20px;
+    margin-top: 16px;
+
+
+}
+
+.author-div-main-ctl{
+    float:left;
+    width:650px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #7b5555;
+    margin-left: 20px;
+    margin-top: 16px;
+
+
+}
+
+.content-div-main-ctl{
+    float:left;
+    width:650px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #331e1e;
+    margin-left: 20px;
+    margin-top: 16px;
+    text-indent: 32px;
+}
+.content-item-div-main-ctl{
+    float:left;
+    width:650px;
+
+}

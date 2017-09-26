@@ -29,6 +29,19 @@ export function RequestApi(type,url,data,callback,errorCallback){
     })
 }
 
+//type:0推荐，1军事，2历史，3情感，4幽默
+export function typeNumToStr(num){
+    if(num===1){
+        return "军事";
+    }else if(num===2){
+        return "历史";
+    }else if(num===3){
+        return "情感";
+    }else if(num===4){
+        return "幽默";
+    }
+}
+
 
 
     
