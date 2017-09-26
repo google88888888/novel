@@ -20,34 +20,35 @@ class App extends Component {
         this.state = {
             data:[],
             catalog:[],
+            
 
         };
     }
 
     componentDidMount() {
-        this.getData();
-        this.getCatalog();
+        this.getData(0);
+        this.getCatalog(0);
     }
 
-    getData(){
+    getData(type){
         let self = this;
         let param={
-
+            type:type,
         }
 
-        // new RequestApi('post','/v1/novel/getData',param,(data)=>{
-        //     if(data.code!==200){
-        //         message.error(data.msg);
-        //     }else{
-        //         self.setState({
-        //             data :this.getTrueData(data.data),
-        //         })
-        //     }
-        // });
+        new RequestApi('post','/getData',param,(data)=>{
+            if(data.code!==200){
+                message.error(data.msg);
+            }else{
+                self.setState({
+                    data :this.getTrueData(data.data),
+                })
+            }
+        });
 
-        self.setState({
-            data :this.getTrueData(mock.getData0.data),
-        })
+        // self.setState({
+        //     data :this.getTrueData(mock.getData0.data),
+        // })
 
 
     }
@@ -59,25 +60,25 @@ class App extends Component {
         return data;
     }
     
-    getCatalog(){
+    getCatalog(type){
         let self = this;
         let param={
-
+            type:type,
         }
 
-        // new RequestApi('post','/v1/novel/getCatalog',param,(data)=>{
-        //     if(data.code!==200){
-        //         message.error(data.msg);
-        //     }else{
-        //         self.setState({
-        //             data :this.getTrueData(data.data),
-        //         })
-        //     }
-        // });
+        new RequestApi('post','/getCatalog',param,(data)=>{
+            if(data.code!==200){
+                message.error(data.msg);
+            }else{
+                self.setState({
+                    data :this.getTrueData(data.data),
+                })
+            }
+        });
 
-        self.setState({
-            catalog :this.getTrueData(mock.getCatalog.data),
-        })
+        // self.setState({
+        //     catalog :this.getTrueData(mock.getCatalog.data),
+        // })
 
 
     }
