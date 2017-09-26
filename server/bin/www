@@ -5,11 +5,10 @@
  */
 
 var app = require('../app');
-var websocket = require('../websocket');
+
 var debug = require('debug')('expressapp:server');
 var http = require('http');
 
-var ws = require("nodejs-websocket");
 /**
  * Get port from environment and store in Express.
  */
@@ -22,13 +21,6 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-
-console.log("开始建立连接...");
-var websocketServer = ws.createServer(websocket).listen(8001)
-console.log("WebSocket建立完毕")
-
-
-
 
 /**
  * Listen on provided port, on all network interfaces.
