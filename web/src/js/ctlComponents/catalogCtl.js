@@ -42,7 +42,7 @@ class catalogCtl extends Component {
                             <nobr>{catalog[i].content[j].title}</nobr>
                         </div>    
                         <div key={"author"+j} className="catalog-author-item-div-catalog-ctl">
-                            <nobr>{catalog[i].content[j].author}</nobr>argeraerr
+                            <nobr>{catalog[i].content[j].author}</nobr>
                         </div>                      
                     </div>     
                 )

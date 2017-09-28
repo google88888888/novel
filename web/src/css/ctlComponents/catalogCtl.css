@@ -13,9 +13,10 @@
 
 .type-div-catalog-ctl{
     float:left;
-    width:300px;
-    height: 20px;
-    line-height: 20px;
+    margin-left:10px;
+    width:290px;
+    height: 30px;
+    line-height: 30px;
     font-size: 16px;
     color: #331e1e;
 
@@ -24,7 +25,8 @@
 .item-div-catalog-ctl{
     float:left;
     width:300px;
-    line-height: 24px;
+    height: 33px;
+    line-height: 33px;
     font-size: 16px;
 }
 
@@ -36,7 +38,8 @@
 
 .catalog-title-item-div-catalog-ctl{
     float:left;
-    width:200px;
+    margin-left: 10px;
+    width:190px;
     color: #331e1e;
     overflow: hidden;
     text-overflow: ellipsis; 
