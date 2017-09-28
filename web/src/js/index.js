@@ -20,20 +20,33 @@ class App extends Component {
         this.state = {
             data:[],
             catalog:[],
-            
+            pageOptions : {
+                page:0,
+                pageSize:5,
+            },
+            searchOptions:{
+                type:0, 
+                title:"",
+                author:"", 
+            },
 
         };
     }
 
     componentDidMount() {
-        this.getData(0);
-        this.getCatalog(0);
+        this.getData();
+        //this.getCatalog();
     }
 
-    getData(type){
+    getData(){
         let self = this;
         let param={
-            type:type,
+            page:this.state.pageOptions.page,
+            pageSize:this.state.pageOptions.pageSize,
+
+            type:this.state.searchOptions.type, 
+            title:this.state.searchOptions.title, 
+            author:this.state.searchOptions.author, 
         }
 
         new RequestApi('post','/getData',param,(data)=>{
@@ -60,10 +73,9 @@ class App extends Component {
         return data;
     }
     
-    getCatalog(type){
+    getCatalog(){
         let self = this;
         let param={
-            type:type,
         }
 
         new RequestApi('post','/getCatalog',param,(data)=>{
@@ -71,14 +83,10 @@ class App extends Component {
                 message.error(data.msg);
             }else{
                 self.setState({
-                    data :this.getTrueData(data.data),
+                    catalog :this.getTrueData(data.data),
                 })
             }
         });
-
-        // self.setState({
-        //     catalog :this.getTrueData(mock.getCatalog.data),
-        // })
 
 
     }

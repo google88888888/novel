@@ -6,15 +6,13 @@ var mysqlDatabase = mysql.createConnection({
     password : '911888mjxok'
   });
 mysqlDatabase.connect()
-mysqlDatabase.query('create database if not exists test', function(err) {
+
+
+mysqlDatabase.query('use novel', function(err) {
     if (err) {
         throw err;
     }
-    mysqlDatabase.query('use test', function(err) {
-        if (err) {
-            throw err;
-        }
-        mysqlDatabase.query('create table if not exists testTable (phone varchar(20), email varchar(20), created_at Date)')
-    })
+    mysqlDatabase.query('create table if not exists testTable (phone varchar(20), email varchar(20), created_at Date)')
 })
+
 module.exports = mysqlDatabase;
