@@ -37,7 +37,30 @@ class App extends Component {
         this.getData();
         this.getCatalog();
     }
+    addTextColor(text){
+        let self = this;
+        let result = [];
 
+        let otherText=text.split(self.state.searchOptions.title);
+        for(let i=0;i<otherText.length-1;i++){
+            result.push(
+                <span key={i}>
+                    {otherText[i]}
+                    <span className="add-color-span-index">
+                        {self.state.searchOptions.title}
+                    </span>
+                </span>
+            )
+        }
+            result.push(
+                <span key={otherText.length-1}>
+                    {otherText[otherText.length-1]}
+                </span>
+            )
+
+       
+        return result
+    }
     getData(){
         let self = this;
         let param={
@@ -104,6 +127,19 @@ class App extends Component {
 
     getSpecifyData(id){
         let self = this;
+
+        self.setState({
+            pageOptions : {
+                page:0,
+                pageSize:5,
+            },
+            searchOptions:{
+                type:0, 
+                title:"",
+                author:"", 
+            },
+        })
+
         let param={
             id:id, 
         }
@@ -135,7 +171,8 @@ class App extends Component {
                 <div className="content-div-index">
                     <div className="main-list-div-index">
                         <MainCtl 
-                            data={data}
+                            data={data}    
+                            addTextColor={self.addTextColor.bind(this)}
                         />
                     </div>  
                     <div className="catalog-list-div-index">

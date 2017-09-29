@@ -1,3 +1,3 @@
 
-export let logo="我是啦啦啦";
+export let logo="江南短篇网";
     

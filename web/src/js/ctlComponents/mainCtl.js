@@ -26,9 +26,10 @@ class mainCtl extends Component {
     }
 
 
+
     render() {
         const {} = this.state;
-        const {data} = this.props;
+        const {data,addTextColor} = this.props;
         let self = this;
         let dataHtml=[];
         for(let i=0;i<data.length;i++){
@@ -46,10 +47,10 @@ class mainCtl extends Component {
                         来自话题：{data[i].type}
                     </div>
                     <div className="title-div-main-ctl">
-                        {data[i].title}
+                        {addTextColor(data[i].title)}
                     </div>
                     <div className="author-div-main-ctl">
-                        {data[i].author}
+                        {addTextColor(data[i].author)}
                     </div>
                     <div className="content-div-main-ctl">
                         {contentHtml}
