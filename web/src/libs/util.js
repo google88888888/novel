@@ -41,6 +41,17 @@ export function typeNumToStr(num){
         return "幽默";
     }
 }
+export function typeStrToNum(str){
+    if(str==="军事"){
+        return 1;
+    }else if(str==="历史"){
+        return 2;
+    }else if(str==="情感"){
+        return 3;
+    }else if(str==="幽默"){
+        return 4;
+    }
+}
 
 
 

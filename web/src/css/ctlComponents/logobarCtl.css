@@ -13,11 +13,29 @@
 
 .logo-div-logo-bar-ctl{
     float:left;
-    width:300px;
+    width:140px;
     height:50px;
     line-height: 50px;
     color: #0f88eb;
     margin-left: 20px;
     font-size: 28px;
     font-family:KaiTi;
+}
+
+.search-condition-div-logo-bar-ctl{
+    float:left;
+    width:400px;
+    height:50px;
+    margin-left: 20px;
+
+}
+.search-condition-antd-input-logo-bar-ctl{
+    height:30px;
+}
+.search-button-div-logo-bar-ctl{
+    float:left;
+    width:400px;
+    height:50px;
+    margin-left: 20px;
+
 }

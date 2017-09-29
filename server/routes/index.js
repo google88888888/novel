@@ -18,9 +18,9 @@ router.post('/getData', function(req, res, next) {
     };
     let  offset=parseInt(pageOptions.page)*parseInt(pageOptions.pageSize);
     mysqlDatabase.query('select * from novel where type like "%'+searchOptions.type
-                       +'%" and title like "%'+searchOptions.title
-                       +'%" and author like "%'+searchOptions.author
-                       +'%" limit '+offset
+                       +'%" and (title like "%'+searchOptions.title
+                       +'%" or author like "%'+searchOptions.author
+                       +'%" ) limit '+offset
                        +' , '+pageOptions.pageSize, 
                        [],function(error, results, fields){
         let returnAllData=[];
@@ -50,7 +50,33 @@ router.post('/getData', function(req, res, next) {
     })
 });
 
+router.post('/getSpecifyData', function(req, res, next) {
+    mysqlDatabase.query('select * from novel where id ='+req.body.id, 
+                       [],function(error, results, fields){
 
+        let returnItemData;
+        if(error) {
+            throw error;
+        }else {
+            returnItemData={
+                type: results[0].type,
+                id:results[0].id,
+                title: results[0].title,
+                author: results[0].author,
+            }
+            // 目前使用同步方法，异步方法待研究。
+            let data=fs.readFileSync(results[0].content_link,'utf-8');
+            var content=data.split(/\r\n/g);	
+            returnItemData.content=content;
+        }
+        res.json({
+            code:200,
+            msg: "success",
+            data:returnItemData,
+        })
+    })
+    
+});
 
 router.post('/getCatalog', function(req, res, next) {
     let returnAllData=[{

@@ -19,13 +19,32 @@
     line-height: 30px;
     font-size: 16px;
     color: #331e1e;
+    cursor: pointer;
+
+}
+
+.type-title-div-catalog-ctl{
+    float:left;
+    width:190px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #331e1e;
+
+}
+.type-more-div-catalog-ctl{
+    float:right;
+    width:100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #b3b3b3;
 
 }
 
 .item-div-catalog-ctl{
     float:left;
     width:300px;
-    height: 33px;
     line-height: 33px;
     font-size: 16px;
 }
@@ -34,6 +53,7 @@
     float:left;
     width:300px;
     border-top: 1px solid #e6e6e6;
+    cursor: pointer;
 }
 
 .catalog-title-item-div-catalog-ctl{

@@ -91,6 +91,37 @@ class App extends Component {
 
     }
 
+    search(pageOptions,searchOptions){
+        let self = this;
+        self.setState({
+            pageOptions :pageOptions,
+            searchOptions :searchOptions,
+        },function(){
+            self.getData();
+        })
+
+    }
+
+    getSpecifyData(id){
+        let self = this;
+        let param={
+            id:id, 
+        }
+
+        new RequestApi('post','/getSpecifyData',param,(data)=>{
+            if(data.code!==200){
+                message.error(data.msg);
+            }else{
+                let dataCopy=[];
+                dataCopy.push(data.data);
+                self.setState({
+                    data :this.getTrueData(dataCopy),
+                })
+            }
+        });
+
+    }
+
    
     render() {
         const {data,catalog} = this.state;
@@ -98,7 +129,9 @@ class App extends Component {
         return (
             
             <div className="App">
-                <LogobarCtl />
+                <LogobarCtl 
+                    search={self.search.bind(this)}
+                />
                 <div className="content-div-index">
                     <div className="main-list-div-index">
                         <MainCtl 
@@ -108,6 +141,8 @@ class App extends Component {
                     <div className="catalog-list-div-index">
                         <CatalogCtl 
                             catalog={catalog}
+                            search={self.search.bind(this)}
+                            getSpecifyData={self.getSpecifyData.bind(this)}
                         />
                     </div> 
                 </div>
