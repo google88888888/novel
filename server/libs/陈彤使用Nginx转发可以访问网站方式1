@@ -1,0 +1,2528 @@
+
+Administrator@Hasee-PC MINGW64 /e
+$ scp -r ./node-v6.11.3-linux-x64.tar.xz  root@47.94.154.241:/root/
+root@47.94.154.241's password:
+node-v6.11.3-linux-x64.tar.xz                 100% 9137KB 280.8KB/s   00:32
+
+Administrator@Hasee-PC MINGW64 /e
+$ ssh root@47.94.154.241
+root@47.94.154.241's password:
+Last login: Sat Sep 30 08:53:42 2017 from 183.156.48.235
+
+Welcome to Alibaba Cloud Elastic Compute Service !
+
+[root@jndpw ~]# ls
+node-v6.11.3-linux-x64  node-v6.11.3-linux-x64.tar.xz
+[root@jndpw ~]# cd /usr/bin
+[root@jndpw bin]# ls
+[                                    ndptool
+a2p                                  needs-restarting
+abrt-action-analyze-backtrace        neqn
+abrt-action-analyze-c                netstat
+abrt-action-analyze-ccpp-local       nettle-hash
+abrt-action-analyze-core             nettle-lfib-stream
+abrt-action-analyze-oops             newaliases
+abrt-action-analyze-python           newaliases.postfix
+abrt-action-analyze-vmcore           newgrp
+abrt-action-analyze-vulnerability    nf-ct-add
+abrt-action-analyze-xorg             nf-ct-list
+abrt-action-check-oops-for-hw-error  nf-exp-add
+abrt-action-generate-backtrace       nf-exp-delete
+abrt-action-generate-core-backtrace  nf-exp-list
+abrt-action-install-debuginfo        nf-log
+abrt-action-list-dsos                nf-monitor
+abrt-action-notify                   nf-queue
+abrt-action-perform-ccpp-analysis    nfsiostat-sysstat
+abrt-action-save-kernel-data         ngettext
+abrt-action-save-package-data        nice
+abrt-action-trim-files               nisdomainname
+abrt-cli                             nl
+abrt-dump-oops                       nl-addr-add
+abrt-dump-xorg                       nl-addr-delete
+abrt-handle-upload                   nl-addr-list
+abrt-merge-pstoreoops                nl-class-add
+abrt-retrace-client                  nl-class-delete
+abrt-watch-log                       nl-classid-lookup
+ac                                   nl-class-list
+addr2line                            nl-cls-add
+alias                                nl-cls-delete
+apropos                              nl-cls-list
+ar                                   nl-fib-lookup
+arch                                 nl-link-enslave
+as                                   nl-link-ifindex2name
+aserver                              nl-link-list
+at                                   nl-link-name2ifindex
+atq                                  nl-link-release
+atrm                                 nl-link-set
+attr                                 nl-link-stats
+aulast                               nl-list-caches
+aulastlog                            nl-list-sockets
+ausyscall                            nl-monitor
+auvirt                               nl-neigh-add
+awk                                  nl-neigh-delete
+base64                               nl-neigh-list
+basename                             nl-neightbl-list
+bash                                 nl-pktloc-lookup
+bashbug                              nl-qdisc-add
+bashbug-64                           nl-qdisc-delete
+batch                                nl-qdisc-list
+bc                                   nl-route-add
+bg                                   nl-route-delete
+blkiomon                             nl-route-get
+blkparse                             nl-route-list
+blkrawverify                         nl-rule-list
+blktrace                             nl-tctree-list
+bno_plot.py                          nl-util-addr
+bond2team                            nm
+bootctl                              nmcli
+btrace                               nm-online
+btrecord                             nmtui
+btreplay                             nmtui-connect
+btt                                  nmtui-edit
+bunzip2                              nmtui-hostname
+busctl                               nohup
+bzcat                                nproc
+bzcmp                                nroff
+bzdiff                               nsenter
+bzgrep                               nslookup
+bzip2                                nsupdate
+bzip2recover                         ntpstat
+bzless                               numfmt
+bzmore                               objcopy
+c2ph                                 objdump
+c89                                  od
+c99                                  oldfind
+cal                                  on_ac_power
+ca-legacy                            open
+cancel                               openssl
+cancel.cups                          openvt
+captoinfo                            os-prober
+cat                                  p11-kit
+catchsegv                            package-cleanup
+catman                               passwd
+cc                                   paste
+cd                                   patch
+centrino-decode                      pathchk
+certutil                             pax
+c++filt                              peekfd
+chacl                                perl
+chage                                perl5.16.3
+chardetect                           perlbug
+chattr                               perldoc
+chcon                                perlthanks
+cheetah                              pgawk
+cheetah-analyze                      pgrep
+cheetah-compile                      pic
+chfn                                 piconv
+chgrp                                pidstat
+chmod                                pinentry
+chown                                pinentry-curses
+chronyc                              pinfo
+chrt                                 ping
+chsh                                 ping6
+chvt                                 pinky
+cifsiostat                           pk12util
+cksum                                pkaction
+clear                                pkcheck
+cloud-init                           pkcs1-conv
+cloud-init-per                       pkexec
+cloud-init-upgrade                   pkg-config
+cmp                                  pkill
+cmsutil                              pkla-admin-identities
+col                                  pkla-check-authorization
+colcrt                               pkttyagent
+colrm                                pl2pm
+column                               pldd
+comm                                 plymouth
+command                              pmap
+consolehelper                        pm-is-supported
+coredumpctl                          pod2html
+cp                                   pod2man
+cpio                                 pod2text
+cpp                                  pod2usage
+cpupower                             post-grohtml
+crlutil                              powernow-k8-decode
+crontab                              pr
+csh                                  preconv
+csplit                               pre-grohtml
+csslint-0.6                          printenv
+curl                                 printf
+cut                                  prlimit
+date                                 prtstat
+db_archive                           ps
+db_checkpoint                        psed
+db_deadlock                          psfaddtable
+db_dump                              psfgettable
+db_dump185                           psfstriptable
+db_hotbackup                         psfxtable
+db_load                              pstack
+db_log_verify                        pstree
+db_printlog                          pstree.x11
+db_recover                           pstruct
+db_replicate                         ptx
+db_stat                              pwd
+db_tuner                             pwdx
+db_upgrade                           pwmake
+dbus-binding-tool                    pwscore
+dbus-cleanup-sockets                 pydoc
+dbus-daemon                          python
+dbus-monitor                         python2
+dbus-send                            python2.7
+dbus-uuidgen                         quota
+db_verify                            quotasync
+dc                                   ranlib
+dd                                   raw
+deallocvt                            rdate
+debuginfo-install                    read
+desktop-file-edit                    readelf
+desktop-file-install                 readlink
+desktop-file-validate                realpath
+df                                   recode-sr-latin
+dgawk                                red
+diff                                 redhat_lsb_init
+diff3                                rename
+dig                                  renice
+dir                                  repoclosure
+dircolors                            repodiff
+dirname                              repo-graph
+dmesg                                repomanage
+dnsdomainname                        repoquery
+domainname                           repo-rss
+dracut                               report-cli
+du                                   reporter-mailx
+dumpkeys                             reporter-rhtsupport
+dwp                                  reporter-ureport
+easy_install                         reposync
+easy_install-2.7                     repotrack
+echo                                 reset
+ed                                   resizecons
+egrep                                rev
+eject                                rm
+elfedit                              rmail
+env                                  rmail.postfix
+envsubst                             rmdir
+eqn                                  rnano
+eu-addr2line                         rngtest
+eu-ar                                rpcgen
+eu-elfcmp                            rpm
+eu-elfcompress                       rpm2cpio
+eu-elflint                           rpmdb
+eu-findtextrel                       rpmkeys
+eu-make-debug-archive                rpmquery
+eu-nm                                rpmverify
+eu-objdump                           rsync
+eu-ranlib                            rsyslog-recover-qi.pl
+eu-readelf                           runcon
+eu-size                              run-parts
+eu-stack                             rvi
+eu-strings                           rview
+eu-strip                             rvim
+eu-unstrip                           s2p
+ex                                   sadf
+expand                               sar
+expr                                 satyr
+factor                               scl
+fallocate                            scl_enabled
+false                                scl_source
+fc                                   scp
+fg                                   script
+fgconsole                            scriptreplay
+fgrep                                sdiff
+file                                 secon
+find                                 sed
+find2perl                            seq
+findmnt                              setarch
+find-repos-of-install                setfacl
+fipscheck                            setfattr
+fipshmac                             setfont
+firewall-cmd                         setkeycodes
+firewall-offline-cmd                 setleds
+flock                                setmetamode
+fmt                                  setpriv
+fold                                 setserial
+fprintd-delete                       setsid
+fprintd-enroll                       setterm
+fprintd-list                         setup
+fprintd-verify                       setup-nsssysinit
+free                                 setup-nsssysinit.sh
+funzip                               setvtrgb
+gapplication                         sexp-conv
+gawk                                 sftp
+gcc                                  sg
+gcc-ar                               sh
+gcc-nm                               sha1sum
+gcc-ranlib                           sha224sum
+gcore                                sha256sum
+gcov                                 sha384sum
+gdb                                  sha512sum
+gdb-add-index                        show-changed-rco
+gdbus                                showconsolefont
+gdk-pixbuf-query-loaders-64          show-installed
+gencat                               showkey
+genl-ctrl-list                       shred
+geoiplookup                          shuf
+geoiplookup6                         signtool
+geoipupdate                          signver
+geqn                                 simc_lsmplugin
+getconf                              sim_lsmplugin
+getent                               size
+getfacl                              skill
+getfattr                             slabtop
+getkeycodes                          sleep
+getopt                               slogin
+getopts                              snice
+gettext                              soelim
+gettext.sh                           sort
+gio-querymodules-64                  sotruss
+glib-compile-schemas                 spax
+gmake                                splain
+gneqn                                split
+gnroff                               sprof
+gpasswd                              sqlite3
+gpg                                  ssh
+gpg2                                 ssh-add
+gpg-agent                            ssh-agent
+gpgconf                              ssh-copy-id
+gpg-connect-agent                    ssh-keygen
+gpg-error                            ssh-keyscan
+gpgparsemail                         ssltap
+gpgsplit                             stapdyn
+gpgv                                 stap-merge
+gpgv2                                stap-report
+gpg-zip                              staprun
+gpic                                 stapsh
+gprof                                stat
+grep                                 stdbuf
+groff                                strace
+grops                                strace-log-merge
+grotty                               strings
+groups                               strip
+grub2-editenv                        stty
+grub2-file                           su
+grub2-fstest                         sudo
+grub2-glue-efi                       sudoedit
+grub2-kbdcomp                        sudoreplay
+grub2-menulst2cfg                    sum
+grub2-mkfont                         sync
+grub2-mkimage                        systemctl
+grub2-mklayout                       systemd-analyze
+grub2-mknetdir                       systemd-ask-password
+grub2-mkpasswd-pbkdf2                systemd-cat
+grub2-mkrelpath                      systemd-cgls
+grub2-mkrescue                       systemd-cgtop
+grub2-mkstandalone                   systemd-coredumpctl
+grub2-render-label                   systemd-delta
+grub2-script-check                   systemd-detect-virt
+grub2-syslinux2cfg                   systemd-escape
+gsettings                            systemd-firstboot
+gsoelim                              systemd-hwdb
+gstack                               systemd-inhibit
+gtar                                 systemd-loginctl
+gtbl                                 systemd-machine-id-setup
+gtroff                               systemd-notify
+gunzip                               systemd-nspawn
+gzexe                                systemd-path
+gzip                                 systemd-run
+h2ph                                 systemd-stdio-bridge
+hdsploader                           systemd-sysv-convert
+head                                 systemd-tmpfiles
+hexdump                              systemd-tty-ask-password-agent
+host                                 tabs
+hostid                               tac
+hostname                             tail
+hostnamectl                          tailf
+hunspell                             tapestat
+i386                                 tar
+iconv                                taskset
+id                                   tbl
+idiag-socket-details                 tcptraceroute
+idn                                  tcsh
+igawk                                teamd
+info                                 teamdctl
+infocmp                              teamnl
+infokey                              tee
+infotocap                            telnet
+install                              test
+ionice                               testgdbm
+iostat                               tic
+ipcalc                               time
+ipcmk                                timedatectl
+ipcrm                                timeout
+ipcs                                 tload
+iptables-xml                         tmon
+isosize                              toe
+jobs                                 top
+join                                 touch
+journalctl                           tput
+jsondiff                             tr
+jsonpatch                            tracepath
+jsonpointer                          tracepath6
+json_reformat                        traceroute
+json_verify                          traceroute6
+kbdinfo                              troff
+kbd_mode                             true
+kbdrate                              truncate
+kdumpctl                             trust
+kernel-install                       tset
+kill                                 tsort
+killall                              tty
+kmod                                 turbostat
+last                                 tzselect
+lastb                                udevadm
+lastcomm                             ul
+lastlog                              umask
+lchfn                                umount
+lchsh                                unalias
+ld                                   uname
+ld.bfd                               unexpand
+ldd                                  unicode_start
+ld.gold                              unicode_stop
+less                                 uniq
+lessecho                             unlink
+lesskey                              unshare
+lesspipe.sh                          unxz
+lexgrog                              unzip
+libtar                               unzipsfx
+link                                 update-ca-trust
+linux32                              updatedb
+linux64                              update-desktop-database
+linux-boot-prober                    update-mime-database
+ln                                   uptime
+loadkeys                             urlgrabber
+loadunimap                           usb-devices
+locale                               usbhid-dump
+localectl                            users
+localedef                            usleep
+locate                               usx2yloader
+logger                               utmpdump
+login                                uuidgen
+loginctl                             vdir
+logname                              verify_blkparse
+look                                 verifytree
+lp                                   vi
+lp.cups                              view
+lpoptions                            vim
+lppasswd                             vimdiff
+lpq                                  vimtutor
+lpq.cups                             vlock
+lpr                                  vmstat
+lpr.cups                             vxloader
+lprm                                 w
+lprm.cups                            wait
+lpstat                               wall
+lpstat.cups                          watch
+ls                                   watchgnupg
+lsattr                               wc
+lsblk                                wdctl
+lsb_release                          wget
+lscpu                                whatis
+lsinitrd                             whereis
+lsipc                                which
+lslocks                              whiptail
+lslogins                             who
+lsmcli                               whoami
+lsmd                                 write
+lsns                                 x86_64
+lsscsi                               x86_64-redhat-linux-gcc
+lsusb                                x86_energy_perf_policy
+lsusb.py                             xargs
+lua                                  xdg-desktop-icon
+luac                                 xdg-desktop-menu
+m4                                   xdg-email
+machinectl                           xdg-icon-resource
+mail                                 xdg-mime
+Mail                                 xdg-open
+mailq                                xdg-screensaver
+mailq.postfix                        xdg-settings
+mailx                                xgettext
+make                                 xmlcatalog
+makedb                               xmllint
+man                                  xmlwf
+mandb                                xxd
+manpath                              xz
+mapscrn                              xzcat
+markdown_py                          xzcmp
+mcookie                              xzdec
+md5sum                               xzdiff
+mesg                                 xzegrep
+mixartloader                         xzfgrep
+mkdir                                xzgrep
+mkfifo                               xzless
+mkinitrd                             xzmore
+mknod                                yes
+mktemp                               ypdomainname
+modutil                              yum
+more                                 yum-builddep
+mount                                yum-config-manager
+mountpoint                           yum-debug-dump
+mpstat                               yum-debug-restore
+msgattrib                            yumdownloader
+msgcat                               yum-groups-manager
+msgcmp                               zcat
+msgcomm                              zcmp
+msgconv                              zdiff
+msgen                                zegrep
+msgexec                              zfgrep
+msgfilter                            zforce
+msgfmt                               zgrep
+msggrep                              zip
+msghack                              zipcloak
+msginit                              zipgrep
+msgmerge                             zipinfo
+msgunfmt                             zipnote
+msguniq                              zipsplit
+mv                                   zless
+nail                                 zmore
+namei                                znew
+nano                                 zsoelim
+[root@jndpw bin]# ../
+-bash: ../: Is a directory
+[root@jndpw bin]# cd ../
+[root@jndpw usr]# ls
+bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
+[root@jndpw usr]# cd ./local/bin/
+[root@jndpw bin]# ls
+npm
+[root@jndpw bin]# rm ./npm
+rm: remove symbolic link ‘./npm’? y
+[root@jndpw bin]# ls
+[root@jndpw bin]# ls
+[root@jndpw bin]# node -v
+-bash: node: command not found
+[root@jndpw bin]# ln -s /root/node-v6.11.3-linux-x64/bin/npm /usr/local/bin/
+[root@jndpw bin]# ls
+npm
+[root@jndpw bin]# ln -s /root/node-v6.11.3-linux-x64/bin/node /usr/local/bin/
+[root@jndpw bin]# ls
+node  npm
+[root@jndpw bin]# node -v
+v6.11.3
+[root@jndpw bin]# cd ../../../
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# node -v
+v6.11.3
+[root@jndpw /]# cd ../../../
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# node -v
+v6.11.3
+[root@jndpw /]# cd ../
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# node -v
+v6.11.3
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# node
+> ;
+undefined
+> node -v
+ReferenceError: node is not defined
+    at repl:1:1
+    at sigintHandlersWrap (vm.js:22:35)
+    at sigintHandlersWrap (vm.js:73:12)
+    at ContextifyScript.Script.runInThisContext (vm.js:21:12)
+    at REPLServer.defaultEval (repl.js:340:29)
+    at bound (domain.js:280:14)
+    at REPLServer.runBound [as eval] (domain.js:293:12)
+    at REPLServer.<anonymous> (repl.js:538:10)
+    at emitOne (events.js:101:20)
+    at REPLServer.emit (events.js:188:7)
+>
+(To exit, press ^C again or type .exit)
+>
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# node -v
+v6.11.3
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# cd /root
+[root@jndpw ~]# ls
+node-v6.11.3-linux-x64  node-v6.11.3-linux-x64.tar.xz
+[root@jndpw ~]# ls
+node-v6.11.3-linux-x64  node-v6.11.3-linux-x64.tar.xz
+[root@jndpw ~]# ls
+node-v6.11.3-linux-x64  node-v6.11.3-linux-x64.tar.xz  novelServer
+[root@jndpw ~]# cd novelServer/
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  package.json  public  routes
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  package.json  public  routes
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+/root/novelServer/libs/database.js:13
+        throw err;
+        ^
+
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+    --------------------
+    at Protocol._enqueue (/root/novelServer/node_modules/mysql/lib/protocol/Prot                           ocol.js:141:48)
+    at Protocol.handshake (/root/novelServer/node_modules/mysql/lib/protocol/Pro                           tocol.js:52:41)
+    at Connection.connect (/root/novelServer/node_modules/mysql/lib/Connection.j                           s:130:18)
+    at Object.<anonymous> (/root/novelServer/libs/database.js:8:15)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+
+npm ERR! Linux 4.4.24-2.al7.x86_64
+npm ERR! argv "/root/node-v6.11.3-linux-x64/bin/node" "/usr/local/bin/npm" "star                           t"
+npm ERR! node v6.11.3
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! expressapp@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the expressapp@0.0.0 start script 'node ./bin/www'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the expressapp package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs expressapp
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls expressapp
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /root/novelServer/npm-debug.log
+[root@jndpw novelServer]# ls
+app.js  libs          novel          package.json  routes
+bin     node_modules  npm-debug.log  public
+[root@jndpw novelServer]# cd /root/
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# l
+-bash: l: command not found
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# tar mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz
+tar: Old option `g' requires an argument.
+Try `tar --help' or `tar --usage' for more information.
+[root@jndpw ~]# tar mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz
+tar: Old option `g' requires an argument.
+Try `tar --help' or `tar --usage' for more information.
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+node-v6.11.3-linux-x64                      novelServer
+[root@jndpw ~]# tar -zxvf  mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/myisam_ftdump
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/myisamchk
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/myisamlog
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/myisampack
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_client_test_embedded
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_config_editor
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_embedded
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_install_db
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_plugin
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_secure_installation
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_ssl_rsa_setup
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_tzinfo_to_sql
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_upgrade
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqladmin
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlbinlog
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlcheck
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqldump
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlimport
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlpump
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlshow
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlslap
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqltest_embedded
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqlxtest
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqld-debug
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqld-debug.a
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysql_config
+mysql-5.7.19-linux-glibc2.12-x86_64/include/big_endian.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/binary_log_types.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/byte_order_generic.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/byte_order_generic_x86.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/decimal.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/errmsg.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/keycache.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/little_endian.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/m_ctype.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/m_string.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_alloc.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_byteorder.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_command.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_compiler.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_config.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_dbug.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_dir.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_getopt.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_global.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_list.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_sys.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_thread.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_thread_local.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/my_xml.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/client_authentication.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/client_plugin.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/client_plugin.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/com_data.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/get_password.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/group_replication_priv.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/innodb_priv.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/mysql_lex_string.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_audit.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_audit.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_auth.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_auth.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_auth_common.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_ftparser.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_ftparser.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_group_replication.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_keyring.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_keyring.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_trace.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/plugin_validate_password.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_file.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_idle.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_mdl.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_memory.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_ps.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_socket.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_sp.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_stage.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_statement.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_table.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_thread.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/mysql_transaction.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/psi.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/psi_base.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/psi/psi_memory.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_command.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_locking.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_my_plugin_log.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_my_snprintf.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_mysql_alloc.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_mysql_keyring.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_mysql_password_policy.                           h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_mysql_string.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_parser.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_rpl_transaction_ctx.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_rpl_transaction_write_                           set.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_rules_table.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_security_context.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_srv_session.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_srv_session_info.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_ssl_wrapper.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_thd_alloc.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_thd_engine_lock.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_thd_wait.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/service_thread_scheduler.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/services.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/services.h.pp
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/thread_pool_priv.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql/thread_type.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql_com.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql_com_server.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql_embed.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql_time.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysql_version.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysqld_ername.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/mysqld_error.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin_audit.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin_ftparser.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin_group_replication.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin_keyring.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/plugin_validate_password.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/sql_common.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/sql_state.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/sslopt-case.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/sslopt-longopts.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/sslopt-vars.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/thr_cond.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/thr_mutex.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/thr_rwlock.h
+mysql-5.7.19-linux-glibc2.12-x86_64/include/typelib.h
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqlclient.a
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqlservices.a
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/pkgconfig/mysqlclient.pc
+mysql-5.7.19-linux-glibc2.12-x86_64/share/aclocal/mysql.m4
+mysql-5.7.19-linux-glibc2.12-x86_64/docs/ChangeLog
+mysql-5.7.19-linux-glibc2.12-x86_64/docs/INFO_SRC
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqld.a
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/comp_err.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/innochecksum.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/lz4_decompress.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/my_print_defaults.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/myisam_ftdump.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/myisamchk.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/myisamlog.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/myisampack.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql-stress-test.pl.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql-test-run.pl.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql.server.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_client_test.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_client_test_embedded.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_config.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_config_editor.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_install_db.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_plugin.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_secure_installation.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_ssl_rsa_setup.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_tzinfo_to_sql.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysql_upgrade.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqladmin.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlbinlog.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlcheck.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqld_multi.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqld_safe.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqldump.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqldumpslow.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlimport.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlman.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlpump.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlshow.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqlslap.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/mysqltest_embedded.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/perror.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/replace.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/resolve_stack_dump.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/resolveip.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man1/zlib_decompress.1
+mysql-5.7.19-linux-glibc2.12-x86_64/man/man8/mysqld.8
+mysql-5.7.19-linux-glibc2.12-x86_64/COPYING
+mysql-5.7.19-linux-glibc2.12-x86_64/README
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/innochecksum
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/lz4_decompress
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/my_print_defaults
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqld
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqld_multi
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqld_safe
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/mysqldumpslow
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/perror
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/replace
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/resolve_stack_dump
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/resolveip
+mysql-5.7.19-linux-glibc2.12-x86_64/bin/zlib_decompress
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/char.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/dicrc
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/left-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/matrix.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/pos-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/rewrite.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/right-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/sys.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_euc-jp/unk.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/char.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/dicrc
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/left-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/matrix.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/pos-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/rewrite.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/right-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/sys.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_sjis/unk.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/char.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/dicrc
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/left-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/matrix.bin
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/pos-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/rewrite.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/right-id.def
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/sys.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/dic/ipadic_utf-8/unk.dic
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/mecab/etc/mecabrc
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/adt_null.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/auth_socket.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/authentication_ldap_sasl_client.s                           o
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/connection_control.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/adt_null.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/auth_socket.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/authentication_ldap_sasl_cl                           ient.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/connection_control.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/group_replication.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/ha_example.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/innodb_engine.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/keyring_file.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/keyring_udf.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libmemcached.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libpluginmecab.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_framework.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_services.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_services_threaded.s                           o
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_session_detach.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_session_in_thd.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_session_info.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_2_sessions.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_all_col_types.s                           o
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_cmds_1.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_commit.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_complex.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_errors.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_lock.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_processlist.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_replication.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_shutdown.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_sqlmode.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_stored_procedur                           es_functions.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_sql_views_triggers.                           so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_x_sessions_deinit.s                           o
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/libtest_x_sessions_init.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/locking_service.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/mypluglib.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/mysql_no_login.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/mysqlx.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/rewrite_example.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/rewriter.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/semisync_master.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/semisync_slave.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/test_security_context.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/test_udf_services.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/validate_password.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/debug/version_token.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/group_replication.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/ha_example.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/innodb_engine.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/keyring_file.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/keyring_udf.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libmemcached.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libpluginmecab.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_framework.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_services.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_services_threaded.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_session_detach.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_session_in_thd.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_session_info.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_2_sessions.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_all_col_types.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_cmds_1.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_commit.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_complex.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_errors.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_lock.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_processlist.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_replication.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_shutdown.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_sqlmode.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_stored_procedures_fun                           ctions.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_sql_views_triggers.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_x_sessions_deinit.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/libtest_x_sessions_init.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/locking_service.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/mypluglib.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/mysql_no_login.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/mysqlx.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/rewrite_example.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/rewriter.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/semisync_master.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/semisync_slave.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/test_security_context.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/test_udf_services.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/validate_password.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/plugin/version_token.so
+mysql-5.7.19-linux-glibc2.12-x86_64/share/bulgarian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/Index.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/README
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/armscii8.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/ascii.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp1250.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp1251.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp1256.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp1257.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp850.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp852.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/cp866.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/dec8.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/geostd8.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/greek.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/hebrew.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/hp8.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/keybcs2.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/koi8r.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/koi8u.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/latin1.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/latin2.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/latin5.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/latin7.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/macce.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/macroman.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/charsets/swe7.xml
+mysql-5.7.19-linux-glibc2.12-x86_64/share/czech/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/danish/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/dictionary.txt
+mysql-5.7.19-linux-glibc2.12-x86_64/share/dutch/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/english/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/errmsg-utf8.txt
+mysql-5.7.19-linux-glibc2.12-x86_64/share/estonian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/fill_help_tables.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/french/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/german/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/greek/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/hungarian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/innodb_memcached_config.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/italian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/japanese/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/korean/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/mysql_security_commands.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/mysql_sys_schema.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/mysql_system_tables.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/mysql_system_tables_data.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/mysql_test_data_timezone.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/norwegian-ny/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/norwegian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/polish/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/portuguese/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/romanian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/russian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/serbian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/slovak/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/spanish/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/swedish/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/share/ukrainian/errmsg.sys
+mysql-5.7.19-linux-glibc2.12-x86_64/support-files/mysql-log-rotate
+mysql-5.7.19-linux-glibc2.12-x86_64/support-files/mysqld_multi.server
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqlclient.so
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqlclient.so.20
+mysql-5.7.19-linux-glibc2.12-x86_64/lib/libmysqlclient.so.20.3.6
+mysql-5.7.19-linux-glibc2.12-x86_64/share/install_rewriter.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/share/uninstall_rewriter.sql
+mysql-5.7.19-linux-glibc2.12-x86_64/support-files/magic
+mysql-5.7.19-linux-glibc2.12-x86_64/support-files/mysql.server
+mysql-5.7.19-linux-glibc2.12-x86_64/docs/INFO_BIN
+mysql-5.7.19-linux-glibc2.12-x86_64/docs/INFO_SRC
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# cp mysql-5.7.19-linux-glibc2.12-x86_64 /usr/local/mysql -r
+;
+^C
+[root@jndpw ~]# cp -r ./mysql-5.7.19-linux-glibc2.12-x86_64 /usr/local/mysql
+^C
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]#
+[root@jndpw ~]#
+[root@jndpw ~]#
+[root@jndpw ~]#
+[root@jndpw ~]#
+[root@jndpw ~]#
+[root@jndpw ~]# cp -rf ./mysql-5.7.19-linux-glibc2.12-x86_64 /usr/local/mysql
+cp: overwrite ‘/usr/local/mysql/mysql-5.7.19-linux-glibc2.12-x86_64/README’? yes
+cp: overwrite ‘/usr/local/mysql/mysql-5.7.19-linux-glibc2.12-x86_64/share/acloca                           l/mysql.m4’? yes
+cp: overwrite ‘/usr/local/mysql/mysql-5.7.19-linux-glibc2.12-x86_64/share/german                           /errmsg.sys’? y
+cp: overwrite ‘/usr/local/mysql/mysql-5.7.19-linux-glibc2.12-x86_64/share/serbia                           n/errmsg.sys’? ^C
+[root@jndpw ~]# cd /usr/local/mysql
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# rm -rf mysql-5.7.19-linux-glibc2.12-x86_64
+[root@jndpw mysql]# ls
+docs  lib  README  share  support-files
+[root@jndpw mysql]# cd /root
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# cp -r ./mysql-5.7.19-linux-glibc2.12-x86_64 /usr/local/mysql
+[root@jndpw ~]# cd ./mysql-5.7.19-linux-glibc2.12-x86_64/
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd ../
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64.tar.xz
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  novelServer
+node-v6.11.3-linux-x64
+[root@jndpw ~]# groupadd mysql
+[root@jndpw ~]# useradd -r -g mysql mysql
+[root@jndpw ~]# cd /usr/local/mysql
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# chown -R mysql:mysql ./
+[root@jndpw mysql]# ./scripts/mysql_install_db --user=mysql
+-bash: ./scripts/mysql_install_db: No such file or directory
+[root@jndpw mysql]# cd mysql-5.7.19-linux-glibc2.12-x86_64/
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd bin
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# ./mysql_install_db --user=mysql
+2017-09-30 13:42:49 [WARNING] mysql_install_db is deprecated. Please consider sw                           itching to mysqld --initialize
+2017-09-30 13:42:49 [ERROR]   The data directory needs to be specified.
+[root@jndpw bin]# cd ../
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd ../
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# cd ../
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd mysql
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# chown -R root:root ./
+[root@jndpw mysql]# cd mysql-5.7.19-linux-glibc2.12-x86_64/
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd bin
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# chown -R mysql:mysql ./
+[root@jndpw bin]# ./mysql_install_db --user=mysql
+2017-09-30 13:45:08 [WARNING] mysql_install_db is deprecated. Please consider sw                           itching to mysqld --initialize
+2017-09-30 13:45:08 [ERROR]   The data directory needs to be specified.
+[root@jndpw bin]# chown -R root:root ./
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# cd ../../../
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd ../
+[root@jndpw usr]# ls
+bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
+[root@jndpw usr]# cd ../
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# ls
+bin   dev  home  lib64       media  opt   root  sbin  sys  usr
+boot  etc  lib   lost+found  mnt    proc  run   srv   tmp  var
+[root@jndpw /]# cd /usr/
+[root@jndpw usr]# ls
+bin  etc  games  include  lib  lib64  libexec  local  sbin  share  src  tmp
+[root@jndpw usr]# cd local
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd mysql
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# rpm -qa | grep mysql
+[root@jndpw mysql]# ls
+docs  lib  mysql-5.7.19-linux-glibc2.12-x86_64  README  share  support-files
+[root@jndpw mysql]# mkdir data
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# ls -a
+.   data  lib                                  README  support-files
+..  docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# cd /usr/local/
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# chown -R mysql mysql/
+[root@jndpw local]# chgrp -R mysql mysql/
+[root@jndpw local]# cd mysql/
+[root@jndpw mysql]# cd mysql/ cd mysql/
+-bash: cd: mysql/: No such file or directory
+[root@jndpw mysql]#  cd mysql/
+-bash: cd: mysql/: No such file or directory
+[root@jndpw mysql]# ls -l
+total 28
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:53 data
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:31 docs
+drwxr-xr-x  5 mysql mysql 4096 Sep 30 13:31 lib
+drwxr-xr-x  9 mysql mysql 4096 Sep 30 13:36 mysql-5.7.19-linux-glibc2.12-x86_64
+-rw-r--r--  1 mysql mysql 2478 Sep 30 13:31 README
+drwxr-xr-x 28 mysql mysql 4096 Sep 30 13:31 share
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:31 support-files
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# cd ../
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd mysql
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# ls -l
+total 28
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:53 data
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:31 docs
+drwxr-xr-x  5 mysql mysql 4096 Sep 30 13:31 lib
+drwxr-xr-x  9 mysql mysql 4096 Sep 30 13:36 mysql-5.7.19-linux-glibc2.12-x86_64
+-rw-r--r--  1 mysql mysql 2478 Sep 30 13:31 README
+drwxr-xr-x 28 mysql mysql 4096 Sep 30 13:31 share
+drwxr-xr-x  2 mysql mysql 4096 Sep 30 13:31 support-files
+[root@jndpw mysql]# cd mysql-5.7.19-linux-glibc2.12-x86_64/
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls -l
+total 52
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd ../
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# cd ../
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd mysql
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# cd mysql-5.7.19-linux-glibc2.12-x86_64/
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls -l
+total 52
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# mkdir data
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# ls -l
+total 56
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 root  root   4096 Sep 30 14:04 data
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql-5.7.19-linux-glibc2.12-x86_64]# cd ../
+[root@jndpw mysql]# ls
+data  lib                                  README  support-files
+docs  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw mysql]# mv -rf mysql-5.7.19-linux-glibc2.12-x86_64/ ../
+mv: invalid option -- 'r'
+Try 'mv --help' for more information.
+[root@jndpw mysql]# mv  mysql-5.7.19-linux-glibc2.12-x86_64/ ../
+[root@jndpw mysql]# ls
+data  docs  lib  README  share  support-files
+[root@jndpw mysql]# cd ../
+[root@jndpw local]# ls
+aegis  etc    include  lib64    mysql                                sbin   src
+bin    games  lib      libexec  mysql-5.7.19-linux-glibc2.12-x86_64  share
+[root@jndpw local]# rm -rf mysql
+[root@jndpw local]# ls
+aegis  etc    include  lib64    mysql-5.7.19-linux-glibc2.12-x86_64  share
+bin    games  lib      libexec  sbin                                 src
+[root@jndpw local]# mv mysql-5.7.19-linux-glibc2.12-x86_64/ mysql
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# cd mysql
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# ls -l
+total 56
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 root  root   4096 Sep 30 14:04 data
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql]# rm data
+rm: cannot remove ‘data’: Is a directory
+[root@jndpw mysql]# rm ./
+rm: cannot remove ‘./’: Is a directory
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cd data
+[root@jndpw data]# ls
+[root@jndpw data]# cd ../
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# rm -rf data
+[root@jndpw mysql]# ls
+bin  COPYING  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cat /etc/group | grep mysql
+mysql:x:1000:
+[root@jndpw mysql]# cat /etc/passwd |grep mysql
+mysql:x:995:1000::/home/mysql:/bin/bash
+[root@jndpw mysql]# cd /usr/local/
+[root@jndpw local]# ls
+aegis  bin  etc  games  include  lib  lib64  libexec  mysql  sbin  share  src
+[root@jndpw local]# chown -R mysql mysql/
+[root@jndpw local]# chgrp -R mysql mysql/
+[root@jndpw local]# cd mysql/
+[root@jndpw mysql]# ls -l
+total 52
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql]# mkdir data
+[root@jndpw mysql]# ls -l
+total 56
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 root  root   4096 Sep 30 14:10 data
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql]# cd /usr/local/
+[root@jndpw local]# chown -R mysql mysql/
+[root@jndpw local]# chgrp -R mysql mysql/
+[root@jndpw local]# cd mysql/
+[root@jndpw mysql]# ls -l
+total 56
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:37 bin
+-rw-r--r--  1 mysql mysql 17987 Sep 30 13:36 COPYING
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 14:10 data
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 docs
+drwxr-xr-x  3 mysql mysql  4096 Sep 30 13:36 include
+drwxr-xr-x  5 mysql mysql  4096 Sep 30 13:36 lib
+drwxr-xr-x  4 mysql mysql  4096 Sep 30 13:36 man
+-rw-r--r--  1 mysql mysql  2478 Sep 30 13:35 README
+drwxr-xr-x 28 mysql mysql  4096 Sep 30 13:35 share
+drwxr-xr-x  2 mysql mysql  4096 Sep 30 13:35 support-files
+[root@jndpw mysql]# ./mysqld --initialize --user=mysql --basedir=/usr/local/mysq                           l/--datadir=/usr/local/mysql/data/
+-bash: ./mysqld: No such file or directory
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cd bin
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# ./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/                           --datadir=/usr/local/mysql/data/
+
+2017-09-30T06:13:05.005024Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is                            deprecated. Please use --explicit_defaults_for_timestamp server option (see doc                           umentation for more details).
+2017-09-30T06:13:05.005143Z 0 [ERROR] Can't find error-message file '/usr/local/                           mysql/--datadir=/usr/local/mysql/data/share/errmsg.sys'. Check error-message fil                           e location and 'lc-messages-dir' configuration directive.
+2017-09-30T06:13:07.081605Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2017-09-30T06:13:07.320256Z 0 [Warning] InnoDB: Creating foreign key constraint                            system tables.
+2017-09-30T06:13:07.429318Z 0 [Warning] No existing UUID has been found, so we a                           ssume that this is the first time that this server has been started. Generating                            a new UUID: 6d421d23-a5a6-11e7-b982-00163e0a3519.
+2017-09-30T06:13:07.431231Z 0 [Warning] Gtid table is not ready to be used. Tabl                           e 'mysql.gtid_executed' cannot be opened.
+2017-09-30T06:13:07.435039Z 1 [Note] A temporary password is generated for root@                           localhost: Qf3+/>,a!yqg
+[root@jndpw bin]#
+[root@jndpw bin]# ./mysqld --initialize --user=mysql --basedir=/usr/local/mysql/                            --datadir=/usr/local/mysql/data/ --lc_messages_dir=/usr/local/mysql/share --lc_                           messages=en_US
+2017-09-30T06:13:50.077390Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is                            deprecated. Please use --explicit_defaults_for_timestamp server option (see doc                           umentation for more details).
+2017-09-30T06:13:52.130672Z 0 [Warning] InnoDB: New log files created, LSN=45790
+2017-09-30T06:13:52.442249Z 0 [Warning] InnoDB: Creating foreign key constraint                            system tables.
+2017-09-30T06:13:52.506249Z 0 [Warning] No existing UUID has been found, so we a                           ssume that this is the first time that this server has been started. Generating                            a new UUID: 88204f15-a5a6-11e7-baac-00163e0a3519.
+2017-09-30T06:13:52.508064Z 0 [Warning] Gtid table is not ready to be used. Tabl                           e 'mysql.gtid_executed' cannot be opened.
+2017-09-30T06:13:52.508547Z 1 [Note] A temporary password is generated for root@                           localhost: 7C,HtoJ6v1bC
+[root@jndpw bin]# cd /usr/local/mysql/support-files/
+[root@jndpw support-files]# ls
+magic  mysqld_multi.server  mysql-log-rotate  mysql.server
+[root@jndpw support-files]# ls -l
+total 24
+-rw-r--r-- 1 mysql mysql   773 Sep 30 13:35 magic
+-rwxr-xr-x 1 mysql mysql  1061 Sep 30 13:35 mysqld_multi.server
+-rwxr-xr-x 1 mysql mysql   894 Sep 30 13:35 mysql-log-rotate
+-rwxr-xr-x 1 mysql mysql 10576 Sep 30 13:35 mysql.server
+[root@jndpw support-files]# cd /etc/my.cnf
+-bash: cd: /etc/my.cnf: Not a directory
+[root@jndpw support-files]# cd /etc
+[root@jndpw etc]# ls
+abrt                     hosts.deny                rc0.d
+adjtime                  init.d                    rc1.d
+aliases                  inittab                   rc2.d
+aliases.db               inputrc                   rc3.d
+alinux-release           iproute2                  rc4.d
+alternatives             issue                     rc5.d
+anacrontab               issue.net                 rc6.d
+asound.conf              kdump.conf                rc.d
+at.deny                  kernel                    rc.local
+audisp                   krb5.conf                 rdma
+audit                    krb5.conf.d               redhat-lsb
+backup                   ld.so.cache               redhat-release
+bash_completion.d        ld.so.conf                resolv.conf
+bashrc                   ld.so.conf.d              rpc
+binfmt.d                 libaudit.conf             rpm
+centos-release           libnl                     rsyncd.conf
+chkconfig.d              libreport                 rsyslog.conf
+chrony.conf              libuser.conf              rsyslog.d
+chrony.keys              locale.conf               rwtab
+cifs-utils               localtime                 rwtab.d
+cloud                    login.defs                sasl2
+cron.d                   logrotate.conf            scl
+cron.daily               logrotate.d               securetty
+cron.deny                lsb-release.d             security
+cron.hourly              lsm                       selinux
+cron.monthly             lvm                       services
+crontab                  machine-id                sestatus.conf
+cron.weekly              machine-info              setuptool.d
+crypttab                 magic                     shadow
+csh.cshrc                mail.rc                   shadow-
+csh.login                makedumpfile.conf.sample  shells
+dbus-1                   man_db.conf               skel
+default                  mke2fs.conf               smartmontools
+depmod.d                 modprobe.d                sos.conf
+dhcp                     modules-load.d            ssh
+DIR_COLORS               motd                      ssl
+DIR_COLORS.256color      mtab                      statetab
+DIR_COLORS.lightbgcolor  my.cnf                    statetab.d
+dnsmasq.conf             my.cnf.d                  subgid
+dnsmasq.d                nanorc                    subuid
+dracut.conf              netconfig                 sudo.conf
+dracut.conf.d            NetworkManager            sudoers
+e2fsck.conf              networks                  sudoers.d
+environment              nscd.conf                 sudo-ldap.conf
+ethertypes               nsswitch.conf             sysconfig
+exports                  nsswitch.conf.bak         sysctl.conf
+filesystems              ntp                       sysctl.d
+firewalld                ntp.conf                  systemd
+fprintd.conf             openldap                  system-release
+fstab                    opt                       tcsd.conf
+gcrypt                   os-release                terminfo
+gdbinit                  pam.d                     timezone
+gdbinit.d                passwd                    tmpfiles.d
+GeoIP.conf               passwd-                   trusted-key.key
+GeoIP.conf.default       pinforc                   tuned
+gnupg                    pkcs11                    udev
+GREP_COLORS              pki                       updatedb.conf
+groff                    plymouth                  usb_modeswitch.conf
+group                    pm                        vconsole.conf
+group-                   polkit-1                  vimrc
+grub2.cfg                popt.d                    virc
+grub.d                   postfix                   wgetrc
+gshadow                  ppp                       wpa_supplicant
+gshadow-                 prelink.conf.d            X11
+gss                      printcap                  xdg
+host.conf                profile                   xinetd.d
+hostname                 profile.d                 yum
+hosts                    protocols                 yum.conf
+hosts.allow              python                    yum.repos.d
+[root@jndpw etc]# vi
+[root@jndpw etc]# ls
+abrt                     hosts.deny                rc0.d
+adjtime                  init.d                    rc1.d
+aliases                  inittab                   rc2.d
+aliases.db               inputrc                   rc3.d
+alinux-release           iproute2                  rc4.d
+alternatives             issue                     rc5.d
+anacrontab               issue.net                 rc6.d
+asound.conf              kdump.conf                rc.d
+at.deny                  kernel                    rc.local
+audisp                   krb5.conf                 rdma
+audit                    krb5.conf.d               redhat-lsb
+backup                   ld.so.cache               redhat-release
+bash_completion.d        ld.so.conf                resolv.conf
+bashrc                   ld.so.conf.d              rpc
+binfmt.d                 libaudit.conf             rpm
+centos-release           libnl                     rsyncd.conf
+chkconfig.d              libreport                 rsyslog.conf
+chrony.conf              libuser.conf              rsyslog.d
+chrony.keys              locale.conf               rwtab
+cifs-utils               localtime                 rwtab.d
+cloud                    login.defs                sasl2
+cron.d                   logrotate.conf            scl
+cron.daily               logrotate.d               securetty
+cron.deny                lsb-release.d             security
+cron.hourly              lsm                       selinux
+cron.monthly             lvm                       services
+crontab                  machine-id                sestatus.conf
+cron.weekly              machine-info              setuptool.d
+crypttab                 magic                     shadow
+csh.cshrc                mail.rc                   shadow-
+csh.login                makedumpfile.conf.sample  shells
+dbus-1                   man_db.conf               skel
+default                  mke2fs.conf               smartmontools
+depmod.d                 modprobe.d                sos.conf
+dhcp                     modules-load.d            ssh
+DIR_COLORS               motd                      ssl
+DIR_COLORS.256color      mtab                      statetab
+DIR_COLORS.lightbgcolor  my.cnf                    statetab.d
+dnsmasq.conf             my.cnf.d                  subgid
+dnsmasq.d                nanorc                    subuid
+dracut.conf              netconfig                 sudo.conf
+dracut.conf.d            NetworkManager            sudoers
+e2fsck.conf              networks                  sudoers.d
+environment              nscd.conf                 sudo-ldap.conf
+ethertypes               nsswitch.conf             sysconfig
+exports                  nsswitch.conf.bak         sysctl.conf
+filesystems              ntp                       sysctl.d
+firewalld                ntp.conf                  systemd
+fprintd.conf             openldap                  system-release
+fstab                    opt                       tcsd.conf
+gcrypt                   os-release                terminfo
+gdbinit                  pam.d                     timezone
+gdbinit.d                passwd                    tmpfiles.d
+GeoIP.conf               passwd-                   trusted-key.key
+GeoIP.conf.default       pinforc                   tuned
+gnupg                    pkcs11                    udev
+GREP_COLORS              pki                       updatedb.conf
+groff                    plymouth                  usb_modeswitch.conf
+group                    pm                        vconsole.conf
+group-                   polkit-1                  vimrc
+grub2.cfg                popt.d                    virc
+grub.d                   postfix                   wgetrc
+gshadow                  ppp                       wpa_supplicant
+gshadow-                 prelink.conf.d            X11
+gss                      printcap                  xdg
+host.conf                profile                   xinetd.d
+hostname                 profile.d                 yum
+hosts                    protocols                 yum.conf
+hosts.allow              python                    yum.repos.d
+[root@jndpw etc]# vim my.cnf
+[root@jndpw etc]# cd /usr/local/mysql/
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cd bin
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# ./mysqld_safe --user=mysql &
+[1] 3046
+[root@jndpw bin]# [2] 10436Logging to '/usr/local/mysql/data/jndpw.err'.
+2017-09-30T06:24:19.837934Z mysqld_safe Starting mysqld daemon with databases fr                           om /usr/local/mysql/data
+[root@jndpw bin]# cd ../
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cd support-files/
+[root@jndpw support-files]# cp mysql.server /etc/init.d/mysql
+[root@jndpw support-files]# chmod +x /etc/init.d/mysql
+[root@jndpw support-files]# chkconfig --add mysql
+[root@jndpw support-files]# chkconfig --list mysql
+
+Note: This output shows SysV services only and does not include native
+      systemd services. SysV configuration data might be overridden by native
+      systemd configuration.
+
+      If you want to list systemd services use 'systemctl list-unit-files'.
+      To see services enabled on particular target use
+      'systemctl list-dependencies [target]'.
+
+mysql           0:off   1:off   2:on    3:on    4:on    5:on    6:off
+[root@jndpw support-files]# cd ../
+[root@jndpw mysql]# ls
+bin  COPYING  data  docs  include  lib  man  README  share  support-files
+[root@jndpw mysql]# cd bin
+[root@jndpw bin]# ls
+innochecksum                mysql_config_editor        mysqlshow
+lz4_decompress              mysqld                     mysqlslap
+myisamchk                   mysqld-debug               mysql_ssl_rsa_setup
+myisam_ftdump               mysqld_multi               mysqltest_embedded
+myisamlog                   mysqld_safe                mysql_tzinfo_to_sql
+myisampack                  mysqldump                  mysql_upgrade
+my_print_defaults           mysqldumpslow              mysqlxtest
+mysql                       mysql_embedded             perror
+mysqladmin                  mysqlimport                replace
+mysqlbinlog                 mysql_install_db           resolveip
+mysqlcheck                  mysql_plugin               resolve_stack_dump
+mysql_client_test_embedded  mysqlpump                  zlib_decompress
+mysql_config                mysql_secure_installation
+[root@jndpw bin]# service mysql start
+Starting MySQL                                             [  OK  ]
+[root@jndpw bin]# 2017-09-30T06:30:51.276270Z mysqld_safe A mysqld process alrea                           dy exists
+
+[root@jndpw bin]# service mysqld stop
+Redirecting to /bin/systemctl stop  mysqld.service
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+[root@jndpw bin]# /etc/init.d/mysqld stop
+-bash: /etc/init.d/mysqld: No such file or directory
+[root@jndpw bin]# service mysqld stop
+Redirecting to /bin/systemctl stop  mysqld.service
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+[root@jndpw bin]# mysql -u root -p
+-bash: mysql: command not found
+[root@jndpw bin]# service mysql start
+Starting MySQL                                             [  OK  ]
+[root@jndpw bin]# 2017-09-30T06:37:28.862511Z mysqld_safe A mysqld process alrea                           dy exists
+show databases
+-bash: show: command not found
+[root@jndpw bin]# ps -aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.3  43308  3988 ?        Ss   Sep29   0:00 /usr/lib/system
+root         2  0.0  0.0      0     0 ?        S    Sep29   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Sep29   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Sep29   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Sep29   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Sep29   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    Sep29   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    Sep29   0:00 [kdevtmpfs]
+root        12  0.0  0.0      0     0 ?        S<   Sep29   0:00 [netns]
+root        13  0.0  0.0      0     0 ?        S<   Sep29   0:00 [perf]
+root        14  0.0  0.0      0     0 ?        S    Sep29   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   Sep29   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   Sep29   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        SN   Sep29   0:00 [khugepaged]
+root        18  0.0  0.0      0     0 ?        S<   Sep29   0:00 [crypto]
+root        19  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        21  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   Sep29   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S<   Sep29   0:00 [md]
+root        24  0.0  0.0      0     0 ?        S<   Sep29   0:00 [devfreq_wq]
+root        28  0.0  0.0      0     0 ?        S    Sep29   0:01 [kswapd0]
+root        29  0.0  0.0      0     0 ?        S<   Sep29   0:00 [vmstat]
+root        30  0.0  0.0      0     0 ?        S    Sep29   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    Sep29   0:00 [ecryptfs-kthre
+root        47  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kthrotld]
+root        48  0.0  0.0      0     0 ?        S<   Sep29   0:00 [acpi_thermal_p
+root        49  0.0  0.0      0     0 ?        S    Sep29   0:00 [vballoon]
+root        50  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        51  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        52  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        53  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        54  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        55  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        57  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        58  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        59  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        60  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        61  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        62  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        63  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        64  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        65  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        66  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        67  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        68  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        69  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        70  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        71  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        72  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        73  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        74  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root        75  0.0  0.0      0     0 ?        S    Sep29   0:00 [scsi_eh_0]
+root        76  0.0  0.0      0     0 ?        S<   Sep29   0:00 [scsi_tmf_0]
+root        77  0.0  0.0      0     0 ?        S    Sep29   0:00 [scsi_eh_1]
+root        78  0.0  0.0      0     0 ?        S<   Sep29   0:00 [scsi_tmf_1]
+root        83  0.0  0.0      0     0 ?        S<   Sep29   0:00 [ipv6_addrconf]
+root        97  0.0  0.0      0     0 ?        S<   Sep29   0:00 [deferwq]
+root        98  0.0  0.0      0     0 ?        S<   Sep29   0:00 [charger_manage
+root        99  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       133  0.0  0.0      0     0 ?        S    Sep29   0:00 [kauditd]
+root       265  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       267  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       268  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       269  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       271  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       272  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       273  0.0  0.0      0     0 ?        S<   Sep29   0:00 [ttm_swap]
+root       275  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       276  0.0  0.0      0     0 ?        S<   Sep29   0:00 [bioset]
+root       277  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kworker/0:1H]
+root       295  0.0  0.0      0     0 ?        S    Sep29   0:00 [jbd2/vda1-8]
+root       296  0.0  0.0      0     0 ?        S<   Sep29   0:00 [ext4-rsv-conve
+root       374  0.0  0.5  36832  5436 ?        Ss   Sep29   0:00 /usr/lib/system
+root       393  0.0  0.1  44528  1212 ?        Ss   Sep29   0:00 /usr/lib/system
+root       396  0.0  0.0 118904   332 ?        Ss   Sep29   0:00 /usr/sbin/lvmet
+root       418  0.0  0.0      0     0 ?        S<   Sep29   0:00 [kpsmoused]
+root       446  0.0  0.0      0     0 ?        S<   Sep29   0:00 [edac-poller]
+dbus       462  0.0  0.1  26488  1128 ?        Ss   Sep29   0:00 /bin/dbus-daemo
+root       466  0.0  0.1  22308  1548 ?        Ss   Sep29   0:00 /usr/lib/system
+chrony     475  0.0  0.1 115860  1172 ?        S    Sep29   0:00 /usr/sbin/chron
+root       489  0.0  0.1  95344  1112 ?        Ss   Sep29   0:00 login -- root
+nscd       491  0.0  0.3 862840  3784 ?        Ssl  Sep29   0:00 /usr/sbin/nscd
+root      1694  0.0  0.0  25288   788 ?        Ssl  Sep29   0:21 /usr/local/aegi
+root      1882  0.0  0.5 120420  5424 ?        Ssl  Sep29   1:06 /usr/local/aegi
+root      1993  0.0  0.1  80768  1660 ?        Ss   Sep29   0:00 /usr/sbin/sshd
+root      2070  0.0  0.0   1552   252 ?        Ss   Sep29   0:17 /usr/sbin/aliyu
+root      2080  0.0  0.1 114008  1356 tty1     Ss+  Sep29   0:00 -bash
+root      2514  0.0  0.0      0     0 ?        S    09:25   0:01 [kworker/u2:0]
+root      2517  0.0  0.1 144188  1772 ?        Ss   09:26   0:00 sshd: root@pts/
+root      2519  0.0  0.3 114144  3572 pts/0    Ss   09:26   0:00 -bash
+root      2795  0.0  0.0      0     0 ?        S    11:42   0:00 [kworker/0:1]
+root      2797  0.0  0.0      0     0 ?        S    12:07   0:00 [kworker/0:0]
+root      2835  0.0  0.0      0     0 ?        S    13:36   0:00 [kworker/u2:2]
+root      2836  0.0  0.8 144188  8488 ?        Ss   13:36   0:00 sshd: root@pts/
+root      2838  0.0  0.3 114144  4044 pts/1    Ss+  13:37   0:00 -bash
+root      3046  0.0  0.2 113268  2940 pts/0    S    14:24   0:00 /bin/sh ./mysql
+mysql     3116  0.0 19.8 1125004 202140 pts/0  Sl   14:24   0:00 /usr/local/mysq
+polkitd   3180  0.0  1.4 525844 15072 ?        Ssl  14:29   0:00 /usr/lib/polkit
+root      3423  0.0  0.3 149156  3448 pts/0    R+   14:39   0:00 ps -aux
+[root@jndpw bin]# ps aux | less
+[root@jndpw bin]# ps aux | less
+[root@jndpw bin]# kill -3116
+-bash: kill: 3116: invalid signal specification
+[root@jndpw bin]# kill -3116[PID]
+-bash: kill: 3116[PID]: invalid signal specification
+[root@jndpw bin]# kill -s 9 3116
+[root@jndpw bin]# ./mysqld_safe: line 198:  3116 Killed                  nohup /usr/local/mysql/bin/mysqld --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data --plugin-dir=/usr/local/mysql/lib/plugin --user=mysql --log-error=jndpw.err --pid-file=jndpw.pid < /dev/null > /dev/null 2>&1
+2017-09-30T06:50:38.364738Z mysqld_safe Number of processes running now: 0
+2017-09-30T06:50:38.368309Z mysqld_safe mysqld restarted
+
+[root@jndpw bin]# service mysql start
+Starting MySQL                                             [  OK  ]
+[root@jndpw bin]# 2017-09-30T06:51:16.391322Z mysqld_safe A mysqld process already exists
+
+[root@jndpw bin]# mysql -uroot -pd
+-bash: mysql: command not found
+[root@jndpw bin]# ln -s /usr/local/mysql/bin/mysql /usr/bin
+[root@jndpw bin]# mysql -uroot -p7C,HtoJ6v1bC
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 3
+Server version: 5.7.19
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> update user set password=password('911888mjxok') where user='root' and host='localhost';
+ERROR 1046 (3D000): No database selected
+mysql> use mysql
+ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
+mysql> show databases
+    -> ;
+ERROR 1820 (HY000): You must reset your password using ALTER USER statement before executing this statement.
+mysql> SET PASSWORD = PASSWORD('911888mjxok');
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+mysql>  ALTER USER 'root'@'localhost' PASSWORD EXPIRE NEVER;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql>  flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> ^C
+mysql> ^C
+mysql>
+^C
+mysql> ^C
+mysql> ^C
+mysql> ^C
+mysql> ^C
+mysql> ^C
+mysql> ^C
+mysql> exit
+Bye
+[root@jndpw bin]# mysql -uroot -p911888mjxok
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 4
+Server version: 5.7.19 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+[root@jndpw bin]# ls
+innochecksum       mysqlcheck                  mysql_embedded             mysql_tzinfo_to_sql
+lz4_decompress     mysql_client_test_embedded  mysqlimport                mysql_upgrade
+myisamchk          mysql_config                mysql_install_db           mysqlxtest
+myisam_ftdump      mysql_config_editor         mysql_plugin               perror
+myisamlog          mysqld                      mysqlpump                  replace
+myisampack         mysqld-debug                mysql_secure_installation  resolveip
+my_print_defaults  mysqld_multi                mysqlshow                  resolve_stack_dump
+mysql              mysqld_safe                 mysqlslap                  zlib_decompress
+mysqladmin         mysqldump                   mysql_ssl_rsa_setup
+mysqlbinlog        mysqldumpslow               mysqltest_embedded
+[root@jndpw bin]# mysql -uroot -p911888mjxok
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 6
+Server version: 5.7.19 MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2017, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+[root@jndpw bin]# service iptables stop
+Redirecting to /bin/systemctl stop  iptables.service
+Failed to stop iptables.service: Unit iptables.service not loaded.
+[root@jndpw bin]# netstat –apn
+usage: netstat [-vWeenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}
+       netstat [-vWnNcaeol] [<Socket> ...]
+       netstat { [-vWeenNac] -I[<Iface>] | [-veenNac] -i | [-cnNe] -M | -s [-6tuw] } [delay]
+
+        -r, --route              display routing table
+        -I, --interfaces=<Iface> display interface table for <Iface>
+        -i, --interfaces         display interface table
+        -g, --groups             display multicast group memberships
+        -s, --statistics         display networking statistics (like SNMP)
+        -M, --masquerade         display masqueraded connections
+
+        -v, --verbose            be verbose
+        -W, --wide               don't truncate IP addresses
+        -n, --numeric            don't resolve names
+        --numeric-hosts          don't resolve host names
+        --numeric-ports          don't resolve port names
+        --numeric-users          don't resolve user names
+        -N, --symbolic           resolve hardware names
+        -e, --extend             display other/more information
+        -p, --programs           display PID/Program name for sockets
+        -o, --timers             display timers
+        -c, --continuous         continuous listing
+
+        -l, --listening          display listening server sockets
+        -a, --all                display all sockets (default: connected)
+        -F, --fib                display Forwarding Information Base (default)
+        -C, --cache              display routing cache instead of FIB
+        -Z, --context            display SELinux security context for sockets
+
+  <Socket>={-t|--tcp} {-u|--udp} {-U|--udplite} {-w|--raw} {-x|--unix}
+           --ax25 --ipx --netrom
+  <AF>=Use '-6|-4' or '-A <af>' or '--<af>'; default: inet
+  List of possible address families (which support routing):
+    inet (DARPA Internet) inet6 (IPv6) ax25 (AMPR AX.25)
+    netrom (AMPR NET/ROM) ipx (Novell IPX) ddp (Appletalk DDP)
+    x25 (CCITT X.25)
+[root@jndpw bin]# ps
+  PID TTY          TIME CMD
+ 2519 pts/0    00:00:00 bash
+ 3046 pts/0    00:00:00 mysqld_safe
+ 3707 pts/0    00:00:00 ps
+[root@jndpw bin]# ps -a
+  PID TTY          TIME CMD
+ 3046 pts/0    00:00:00 mysqld_safe
+ 3445 pts/0    00:00:01 mysqld
+ 3708 pts/0    00:00:00 ps
+[root@jndpw bin]# ps aux | less
+[root@jndpw bin]# netstat -a
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN
+tcp        0      0 jndpw:60906             100.100.25.3:http       ESTABLISHED
+tcp        0      0 jndpw:ssh               183.156.48.235:52434    ESTABLISHED
+tcp6       0      0 [::]:mysql              [::]:*                  LISTEN
+udp        0      0 localhost:323           0.0.0.0:*
+udp6       0      0 localhost:323           [::]:*
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     14385    /tmp/Aegis-<Guid(5A2C30A2-A87D-490A-9281-6765EDAD7CBA)>
+unix  2      [ ]         DGRAM                    8938     /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     10522    /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     29966    /tmp/mysql.sock
+unix  2      [ ]         DGRAM                    8939     /run/systemd/cgroups-agent
+unix  2      [ ]         DGRAM                    10529    /run/systemd/shutdownd
+unix  2      [ ACC ]     STREAM     LISTENING     8944     /run/systemd/journal/stdout
+unix  5      [ ]         DGRAM                    8945     /run/systemd/journal/socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     10530    /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     14386    /usr/local/aegis/Aegis-<Guid(5A2C30A2-A87D-490A-9281-6765EDAD7CBA)>
+unix  2      [ ACC ]     STREAM     LISTENING     10531    /run/lvm/lvmetad.socket
+unix  2      [ ACC ]     STREAM     LISTENING     10678    /run/lvm/lvmpolld.socket
+unix  2      [ ]         DGRAM                    11666    /var/run/nscd/socket
+unix  8      [ ]         DGRAM                    8946     /dev/log
+unix  2      [ ACC ]     STREAM     LISTENING     11667    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     12342    /var/run/nscd/socket
+unix  3      [ ]         STREAM     CONNECTED     11673
+unix  3      [ ]         STREAM     CONNECTED     11765    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     14383
+unix  3      [ ]         STREAM     CONNECTED     14382
+unix  3      [ ]         STREAM     CONNECTED     14381
+unix  2      [ ]         DGRAM                    12271
+unix  3      [ ]         STREAM     CONNECTED     14384
+unix  3      [ ]         STREAM     CONNECTED     12142
+unix  2      [ ]         DGRAM                    29338
+unix  2      [ ]         DGRAM                    12136
+unix  3      [ ]         STREAM     CONNECTED     12143    /var/run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    15235
+unix  3      [ ]         STREAM     CONNECTED     11279
+unix  3      [ ]         STREAM     CONNECTED     11783
+unix  3      [ ]         STREAM     CONNECTED     11391    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    12152
+unix  3      [ ]         STREAM     CONNECTED     11785    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11784
+unix  3      [ ]         STREAM     CONNECTED     11940
+unix  3      [ ]         STREAM     CONNECTED     15052    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    23330
+unix  3      [ ]         STREAM     CONNECTED     15051
+unix  2      [ ]         DGRAM                    15113
+unix  3      [ ]         DGRAM                    11286
+unix  3      [ ]         DGRAM                    11285
+unix  2      [ ]         DGRAM                    11228
+unix  3      [ ]         STREAM     CONNECTED     11763
+unix  3      [ ]         STREAM     CONNECTED     29336    /var/run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     11941    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     11216
+unix  2      [ ]         DGRAM                    29366
+unix  3      [ ]         STREAM     CONNECTED     29335
+unix  3      [ ]         STREAM     CONNECTED     11390    /run/systemd/journal/stdout
+[root@jndpw bin]# cd /root/nodeServer/
+-bash: cd: /root/nodeServer/: No such file or directory
+[root@jndpw bin]# ls
+innochecksum       mysqlcheck                  mysql_embedded             mysql_tzinfo_to_sql
+lz4_decompress     mysql_client_test_embedded  mysqlimport                mysql_upgrade
+myisamchk          mysql_config                mysql_install_db           mysqlxtest
+myisam_ftdump      mysql_config_editor         mysql_plugin               perror
+myisamlog          mysqld                      mysqlpump                  replace
+myisampack         mysqld-debug                mysql_secure_installation  resolveip
+my_print_defaults  mysqld_multi                mysqlshow                  resolve_stack_dump
+mysql              mysqld_safe                 mysqlslap                  zlib_decompress
+mysqladmin         mysqldump                   mysql_ssl_rsa_setup
+mysqlbinlog        mysqldumpslow               mysqltest_embedded
+[root@jndpw bin]# cd /root
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64         novelServer
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz
+[root@jndpw ~]# cd novelServer/
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  npm-debug.log  package.json  public  routes
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+^C
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+^C
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+^C
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+
+Killed
+[root@jndpw novelServer]#
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  npm-debug.log  package.json  public  routes
+[root@jndpw novelServer]# DEBUG=myapp:* npm start &
+[2] 5796
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+GET / 404 8.134 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.754 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.592 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.982 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.566 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.529 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.517 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.469 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.428 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.504 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+^C
+[root@jndpw novelServer]# DEBUG=myapp:* npm start &
+[3] 6148
+[2]   Killed                  DEBUG=myapp:* npm start
+[root@jndpw novelServer]# path.js:1149
+          cwd = process.cwd();
+                        ^
+
+Error: ENOENT: no such file or directory, uv_cwd
+    at Error (native)
+    at Object.resolve (path.js:1149:25)
+    at Function.Module._resolveLookupPaths (module.js:390:17)
+    at Function.Module._resolveFilename (module.js:460:31)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at /root/node-v6.11.3-linux-x64/lib/node_modules/npm/bin/npm-cli.js:25:13
+    at Object.<anonymous> (/root/node-v6.11.3-linux-x64/lib/node_modules/npm/bin/npm-cli.js:75:3)
+    at Module._compile (module.js:570:32)
+^C
+[3]+  Exit 1                  DEBUG=myapp:* npm start
+[root@jndpw novelServer]# cd
+[root@jndpw ~]# ls
+mysql-5.7.19-linux-glibc2.12-x86_64         node-v6.11.3-linux-x64         novelServer
+mysql-5.7.19-linux-glibc2.12-x86_64.tar.gz  node-v6.11.3-linux-x64.tar.xz  novelServer_bak
+[root@jndpw ~]# cd novelServer
+[root@jndpw novelServer]# DEBUG=myapp:* npm start &
+[2] 6157
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]# GET / 404 8.154 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.769 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.485 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.742 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.471 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.473 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  package.json  public  routes
+[root@jndpw novelServer]# vim app.js
+[root@jndpw novelServer]# ps -ef |grep node
+root      6167  6157  0 18:45 pts/0    00:00:00 node ./bin/www
+root      6271  2519  0 18:54 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# kill -s 9 6167
+[root@jndpw novelServer]# ps -ef |grep node
+root      6273  2519  0 18:54 pts/0    00:00:00 grep --color=auto node
+[2]+  Killed                  DEBUG=myapp:* npm start
+[root@jndpw novelServer]# ps -ef |grep node
+root      6275  2519  0 18:54 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ps -ef |grep node
+root      6277  2519  0 18:54 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ps -ef |grep node
+root      6279  2519  0 18:54 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ls
+app.js  bin  libs  node_modules  novel  package.json  public  routes
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+^C
+[root@jndpw novelServer]# netstat -na |grep 3001
+[root@jndpw novelServer]# vim app.js
+[root@jndpw novelServer]# DEBUG=myapp:* npm start &
+[2] 6321
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]# netstat -na |grep 3001
+tcp6       0      0 :::3001                 :::*                    LISTEN
+[root@jndpw novelServer]# netstat -na |grep 3001
+tcp6       0      0 :::3001                 :::*                    LISTEN
+[root@jndpw novelServer]# ps -ef |grep node
+root      6331  6321  1 19:02 pts/0    00:00:00 node ./bin/www
+root      6346  2519  0 19:02 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# kill -s 9 6331
+[root@jndpw novelServer]# ps -ef |grep node
+root      6348  2519  0 19:02 pts/0    00:00:00 grep --color=auto node
+[2]+  Killed                  DEBUG=myapp:* npm start
+[root@jndpw novelServer]# ps -ef |grep node
+root      6350  2519  0 19:02 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ps -ef |grep node
+root      6352  2519  0 19:02 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ps -ef |grep node
+root      6524  2519  0 19:08 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# ps -ef |grep node
+root      6526  2519  0 19:08 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+
+
+
+
+
+
+
+
+
+
+^C
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]#
+[root@jndpw novelServer]# ps -ef |grep node
+root      6717  2519  0 19:19 pts/0    00:00:00 grep --color=auto node
+[root@jndpw novelServer]# DEBUG=myapp:* npm start
+
+> expressapp@0.0.0 start /root/novelServer
+> node ./bin/www
+
+
+
+GET / 404 8.283 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.681 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 1.600 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.806 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.549 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET / 404 0.520 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.541 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.556 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.499 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.531 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.972 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET / 404 0.560 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET /theIndex.html 200 5.659 ms - 520
+GET /static/css/theIndex.css 200 1.401 ms - 152450
+GET /static/js/theIndex.js 200 0.554 ms - 666562
+GET /static/css/theIndex.css.map 200 1.002 ms - 100
+POST /getData 200 30.440 ms - 15300
+POST /getCatalog 200 44.326 ms - 430
+GET /static/js/theIndex.js.map 200 3.725 ms - 4993872
+GET /favicon.ico 404 2.094 ms - 1091
+Error: No default engine was specified and no extension was provided.
+    at new View (/root/novelServer/node_modules/express/lib/view.js:62:11)
+    at EventEmitter.render (/root/novelServer/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/root/novelServer/node_modules/express/lib/response.js:971:7)
+    at /root/novelServer/app.js:57:7
+    at Layer.handle_error (/root/novelServer/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/root/novelServer/node_modules/express/lib/router/index.js:315:13)
+    at /root/novelServer/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/root/novelServer/node_modules/express/lib/router/index.js:335:12)
+    at next (/root/novelServer/node_modules/express/lib/router/index.js:275:10)
+    at /root/novelServer/app.js:46:3
+GET /theIndex.html 304 1.328 ms - -
+GET /static/css/theIndex.css 304 0.471 ms - -
+GET /static/js/theIndex.js 304 0.283 ms - -
+POST /getData 200 4.951 ms - 15300
+POST /getCatalog 200 1.956 ms - 430
+
