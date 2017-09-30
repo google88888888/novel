@@ -1,4 +1,5 @@
 //cmd mysql -uroot -p
+//mysql>source  F:/hello world/niuzi.sql
 var mysql = require('mysql')
 var mysqlDatabase = mysql.createConnection({
     host     : 'localhost',
