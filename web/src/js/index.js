@@ -29,6 +29,7 @@ class App extends Component {
                 title:"",
                 author:"", 
             },
+            dataEnd:"false",
 
         };
     }
@@ -76,9 +77,32 @@ class App extends Component {
             if(data.code!==200){
                 message.error(data.msg);
             }else{
-                self.setState({
-                    data :this.getTrueData(data.data),
-                })
+                if(this.state.pageOptions.page===0){
+                    self.setState({
+                        data :this.getTrueData(data.data),
+                    })
+                }else{
+                    let dataAll=this.state.data;
+                    let dataGot=this.getTrueData(data.data);
+                    for(let i=0;i<dataGot.length;i++){
+                        dataAll.push(dataGot[i]);
+                    }
+                    self.setState({
+                        data :dataAll,
+                    })
+
+                }
+                if(data.data.length<5){
+                    self.setState({
+                        dataEnd :"true",
+                    })  
+                }else{
+                    self.setState({
+                        dataEnd :"false",
+                    })      
+                }
+
+
             }
         });
 
@@ -125,6 +149,20 @@ class App extends Component {
 
     }
 
+    getMoreData(){
+        let self = this;
+        let pageOptions = {
+            page:this.state.pageOptions.page+1,
+            pageSize:5,
+        };
+        self.setState({
+            pageOptions :pageOptions,
+        },function(){
+            self.getData();
+        })
+
+    }
+
     getSpecifyData(id){
         let self = this;
 
@@ -160,7 +198,7 @@ class App extends Component {
 
    
     render() {
-        const {data,catalog} = this.state;
+        const {data,catalog,dataEnd} = this.state;
         let self=this;
         return (
             
@@ -171,8 +209,10 @@ class App extends Component {
                 <div className="content-div-index">
                     <div className="main-list-div-index">
                         <MainCtl 
-                            data={data}    
+                            data={data}  
+                            dataEnd={dataEnd}  
                             addTextColor={self.addTextColor.bind(this)}
+                            getMoreData={self.getMoreData.bind(this)}
                         />
                     </div>  
                     <div className="catalog-list-div-index">

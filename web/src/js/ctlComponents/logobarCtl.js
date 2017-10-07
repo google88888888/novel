@@ -46,6 +46,20 @@ class logobarCtl extends Component {
         this.props.search(pageOptions,searchOptions);
     };
 
+    logoClick = () => {
+        let pageOptions={
+            page:0,
+            pageSize:5,
+        };
+        let searchOptions={
+            type:0, 
+            title:"",
+            author:"", 
+        };
+
+        this.props.search(pageOptions,searchOptions);
+    };
+
     render() {
         const {} = this.state;
         const {} = this.props;
@@ -55,7 +69,7 @@ class logobarCtl extends Component {
    
         return (
             <div className="global-div-logo-bar-ctl">
-                <div className="logo-div-logo-bar-ctl">
+                <div className="logo-div-logo-bar-ctl"  onClick={self.logoClick.bind(this)}>
                     {Name.logo}
                 </div>
                 <div className="search-div-logo-bar-ctl">

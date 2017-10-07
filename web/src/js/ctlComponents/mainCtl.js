@@ -29,7 +29,7 @@ class mainCtl extends Component {
 
     render() {
         const {} = this.state;
-        const {data,addTextColor} = this.props;
+        const {data,addTextColor,dataEnd} = this.props;
         let self = this;
         let dataHtml=[];
         for(let i=0;i<data.length;i++){
@@ -59,10 +59,21 @@ class mainCtl extends Component {
                 </div>     
             )
         }
+        let dataEndHtml;
+        if(dataEnd==="true"){
+            dataEndHtml=<div className="data-end-div-main-ctl">
+                已加载全部数据
+            </div>  
+        }else{
+            dataEndHtml=<div className="data-more-div-main-ctl" onClick={this.props.getMoreData.bind(this)}>
+                查看更多
+            </div>  
+        }
 
         return (
             <div>
                 {dataHtml}
+                {dataEndHtml}
             </div>
             
         )

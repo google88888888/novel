@@ -2,7 +2,7 @@
 //mysql>source  F:/hello world/niuzi.sql
 var mysql = require('mysql')
 var mysqlDatabase = mysql.createConnection({
-    host     : 'localhost',
+    host     : '127.0.0.1',
     user     : 'root',
     password : '911888mjxok'
   });
