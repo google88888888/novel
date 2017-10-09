@@ -36,7 +36,10 @@ router.post('/getData', function(req, res, next) {
                     }
                     // 目前使用同步方法，异步方法待研究。
                     let data=fs.readFileSync(results[i].content_link,'utf-8');
-                    var content=data.split(/\r\n/g);	
+                    var content=data.split(/\r\n/g);
+                    for(let i=0;i<content.length;i++){
+                        content[i]=content[i].trim();
+                    }	
                     returnItemData.content=content;
                     returnAllData.push(returnItemData);
             }

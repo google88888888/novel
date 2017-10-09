@@ -1,6 +1,7 @@
 // 启动应用
 // DEBUG=myapp:* npm start
 // 到novelServer目录执行pm2 start ./bin/www 
+// pm2 stop all
 //ps -ef | grep node 查看node进程
 //kill 进程pid
 var express = require('express');
