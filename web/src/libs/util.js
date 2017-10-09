@@ -29,12 +29,12 @@ export function RequestApi(type,url,data,callback,errorCallback){
     })
 }
 
-//type:0推荐，1军事，2历史，3情感，4幽默
+//type:0推荐，1经历，2立志，3情感，4幽默
 export function typeNumToStr(num){
     if(num===1){
-        return "军事";
+        return "经历";
     }else if(num===2){
-        return "历史";
+        return "立志";
     }else if(num===3){
         return "情感";
     }else if(num===4){
@@ -42,9 +42,9 @@ export function typeNumToStr(num){
     }
 }
 export function typeStrToNum(str){
-    if(str==="军事"){
+    if(str==="经历"){
         return 1;
-    }else if(str==="历史"){
+    }else if(str==="立志"){
         return 2;
     }else if(str==="情感"){
         return 3;

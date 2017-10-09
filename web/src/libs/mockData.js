@@ -1,5 +1,5 @@
 
-//type:0推荐，1军事，2历史，3情感，4幽默
+//type:0推荐，1经历，2立志，3情感，4幽默
 export let getData0 ={
     code: 200,
     data: [
@@ -54,21 +54,21 @@ export let getCatalog ={
                 type: 1,
                 content: [{  
                     id:"id",
-                    title: "第1篇军事dababwarbawrbae爱过我RB万人帮我WWEW人",
+                    title: "第1篇经历dababwarbawrbae爱过我RB万人帮我WWEW人",
                     author: "author",
                 },{  
                     id:"id",
-                    title: "第2篇军事",
-                    author: "author",
-                },{  
-
-                    id:"id",
-                    title: "第3篇军事",
+                    title: "第2篇经历",
                     author: "author",
                 },{  
 
                     id:"id",
-                    title: "第4篇军事",
+                    title: "第3篇经历",
+                    author: "author",
+                },{  
+
+                    id:"id",
+                    title: "第4篇经历",
                     author: "author",
                 },]
 
@@ -77,21 +77,21 @@ export let getCatalog ={
                 type: 2,
                 content: [{  
                     id:"id",
-                    title: "第1篇历史",
+                    title: "第1篇立志",
                     author: "author",
                 },{  
                     id:"id",
-                    title: "第2篇历史",
-                    author: "author",
-                },{  
-
-                    id:"id",
-                    title: "第3篇历史",
+                    title: "第2篇立志",
                     author: "author",
                 },{  
 
                     id:"id",
-                    title: "第4篇历史",
+                    title: "第3篇立志",
+                    author: "author",
+                },{  
+
+                    id:"id",
+                    title: "第4篇立志",
                     author: "author",
                 },]
 
