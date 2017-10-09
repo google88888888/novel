@@ -1,5 +1,5 @@
 
-//type:0推荐，1经历，2立志，3情感，4幽默
+//type:0推荐，1经历，2立志，3情感，4哲思
 export let getData0 ={
     code: 200,
     data: [
@@ -123,21 +123,21 @@ export let getCatalog ={
                 type: 4,
                 content: [{  
                     id:"id",
-                    title: "第1篇幽默",
+                    title: "第1篇哲思",
                     author: "author",
                 },{  
                     id:"id",
-                    title: "第2篇幽默",
-                    author: "author",
-                },{  
-
-                    id:"id",
-                    title: "第3篇幽默",
+                    title: "第2篇哲思",
                     author: "author",
                 },{  
 
                     id:"id",
-                    title: "第4篇幽默",
+                    title: "第3篇哲思",
+                    author: "author",
+                },{  
+
+                    id:"id",
+                    title: "第4篇哲思",
                     author: "author",
                 },]
 

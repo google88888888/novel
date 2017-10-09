@@ -29,7 +29,7 @@ export function RequestApi(type,url,data,callback,errorCallback){
     })
 }
 
-//type:0推荐，1经历，2立志，3情感，4幽默
+//type:0推荐，1经历，2立志，3情感，4哲思
 export function typeNumToStr(num){
     if(num===1){
         return "经历";
@@ -38,7 +38,7 @@ export function typeNumToStr(num){
     }else if(num===3){
         return "情感";
     }else if(num===4){
-        return "幽默";
+        return "哲思";
     }
 }
 export function typeStrToNum(str){
@@ -48,7 +48,7 @@ export function typeStrToNum(str){
         return 2;
     }else if(str==="情感"){
         return 3;
-    }else if(str==="幽默"){
+    }else if(str==="哲思"){
         return 4;
     }
 }
