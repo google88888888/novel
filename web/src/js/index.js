@@ -176,6 +176,7 @@ class App extends Component {
                 title:"",
                 author:"", 
             },
+            dataEnd :"true",
         })
 
         let param={
