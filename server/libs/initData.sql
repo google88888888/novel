@@ -1,7 +1,10 @@
-insert into novel(id,type,title,author,content_link) values 
-(2,1,'第二篇二','第二篇作者二','./novel/第二篇.txt'),
-(3,1,'第三篇三','第三篇作者三','./novel/第三篇.txt'),
-(4,1,'第四篇','第四篇作者四','./novel/第四篇.txt'),
-(5,1,'第五篇','第五篇作者五','./novel/第五篇.txt'),
-(6,1,'第六篇','第六篇作者六','./novel/第六篇.txt');
-
+1经历，2立志，3情感，4哲思
+insert into novel(type,title,author,content_link) values 
+(3,'恨别难相逢','蒋贵','./novelReal/恨别难相逢.txt'),
+(3,'寄居蟹壳里的窥探','玄清','./novelReal/寄居蟹壳里的窥探.txt'),
+(1,'没有曲调的歌','杨玨','./novelReal/没有曲调的歌.txt'),
+(1,'秋寺缘','雨洁','./novelReal/秋寺缘.txt'),
+(3,'思越','雨洁','./novelReal/思越.txt'),
+(1,'秋景','春天','./novelReal/秋景.txt'),
+(1,'清秋','玄清','./novelReal/清秋.txt'),
+(1,'山中闻乐声','千里鶴','./novelReal/山中闻乐声.txt'),

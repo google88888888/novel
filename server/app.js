@@ -42,6 +42,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 
+app.use('/', function(req, res, next) {
+  res.redirect('http://www.jiangnanduanpian.com/theIndex.html');
+});
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
